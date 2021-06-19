@@ -2300,6 +2300,7 @@ const cardSelection = (array) => {
 }
 
 
+// Mood Selection
 const messageMood = () => {
   const posOrNeg = ['light', 'shadow'];
   const moodHolder = [];
@@ -2314,6 +2315,7 @@ const messageMood = () => {
 }
 
 
+// Message Composition
 const messageBuilder = () => {
   const selectedCards = cardSelection(tarotInterpretations);
   const cardMoods = messageMood();
@@ -2327,7 +2329,7 @@ const messageBuilder = () => {
       let mood = cardMoods[i];
       let cardLeadin = state[i] ;
 
-      message += `Card ${i+1} is the <b>${card.name.toUpperCase()}</b>. This card is rank ${card.rank} in the ${card.suit} suit. This card was presented in the ${mood}. The meaning: ${cardLeadin}: <b>${card.meanings[mood][i]}</b>. <br/><br/>`
+      message += `Card ${i+1} is the <b>${card.name.toUpperCase()}</b>. This card is rank ${card.rank} in the ${card.suit} suit. This card was presented in the ${mood}. Meaning: ${cardLeadin}: <b>${card.meanings[mood][i]}</b>. <br/><br/>`
       i++;
     }
   }
@@ -2335,15 +2337,14 @@ const messageBuilder = () => {
 };
 
 
-// Write Javascript code!
+// DOM Maipulation
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `
-  <header>
-     <h1> A Personalized Tarot Reading</h1>
-  </header>
   <div class="spread">
     <div class="subtitles">
-      <h2>This Spread Is Just For You</h2>
+         <h1> A Personalized Tarot Reading:</h1>
+         <hr>
+      <h2>This Spread Is Just For You !</h2>
       <h4>Each card teaches you a specific lesson and a concept to meditate over</h4>
     </div>
     <hr>
