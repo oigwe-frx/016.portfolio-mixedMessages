@@ -12,3 +12,6 @@ In this project, you’ll build a message generator program that outputs a new, 
 JavaScript
 Git and GitHub
 Command line
+
+## Credit
+Credit to [@dariusk](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) for providing the tarot card object used in this project
