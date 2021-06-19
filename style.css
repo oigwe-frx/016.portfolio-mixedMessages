@@ -1,12 +1,17 @@
 html {
-  background-color: black;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOEn5RB2ti5-9XQY1NwEPZb_Ol19bSIdFdw&usqp=CAU');
+  font-family: 'Libre Franklin', sans-serif;
 }
 
-header {
-  color: white;
-  font-style: italic;
-  text-align: center;
-  margin: 2em;
+h1 {
+  font-family: 'Benne', serif;
+  font-size: 50px;
+}
+
+
+hr {
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .content {
@@ -15,11 +20,11 @@ header {
 }
 
 .spread {
-  background-color: white;
+  color: white;
 }
 
 .subtitles {
   text-align: center;
-    padding: 1em;
-
+  padding: 1em;
+  color: white;
 }
