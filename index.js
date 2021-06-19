@@ -2347,7 +2347,6 @@ appDiv.innerHTML = `
       <h2>This Spread Is Just For You !</h2>
       <h4>Each card teaches you a specific lesson and a concept to meditate over</h4>
     </div>
-    <hr>
     <div class="content">
       <p>${messageBuilder()}<p>
     </class>
