@@ -2,12 +2,10 @@ html {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOEn5RB2ti5-9XQY1NwEPZb_Ol19bSIdFdw&usqp=CAU');
   font-family: 'Libre Franklin', sans-serif;
 }
-
 h1 {
   font-family: 'Benne', serif;
   font-size: 50px;
 }
-
 
 hr {
   margin-left: 10em;
@@ -17,6 +15,8 @@ hr {
 .content {
   margin: 0;
   padding: 3em;
+  background-color: white;
+  color: black;
 }
 
 .spread {
