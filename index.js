@@ -2340,6 +2340,11 @@ const messageBuilder = () => {
 // DOM Maipulation
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `
+<head> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Benne&family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
   <div class="spread">
     <div class="subtitles">
          <h1> A Personalized Tarot Reading:</h1>
@@ -2351,4 +2356,5 @@ appDiv.innerHTML = `
       <p>${messageBuilder()}<p>
     </class>
   <div>
+ </body>
 `;
