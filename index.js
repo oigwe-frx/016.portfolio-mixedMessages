@@ -37,7 +37,8 @@ const tarotInterpretations = [
     },
     name: 'The Fool',
     rank: 0,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/52/the-fool-6016940_960_720.jpg',
   },
   {
     fortune_telling: [
@@ -65,7 +66,8 @@ const tarotInterpretations = [
     },
     name: 'The Magician',
     rank: 1,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.pixabay.com/photo/2021/03/18/02/19/the-magician-6103696_960_720.jpg',
   },
   {
     fortune_telling: [
@@ -95,7 +97,8 @@ const tarotInterpretations = [
     },
     name: 'The Papess/High Priestess',
     rank: 2,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-high-priestess-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488834850', 
   },
   {
     fortune_telling: [
@@ -126,7 +129,8 @@ const tarotInterpretations = [
     },
     name: 'The Empress',
     rank: 3,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/46/empress-6016923_960_720.jpg'
   },
   {
     fortune_telling: [
@@ -154,7 +158,8 @@ const tarotInterpretations = [
     },
     name: 'The Emperor',
     rank: 4,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/04-emperor-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488863001'
   },
   {
     fortune_telling: [
@@ -184,7 +189,8 @@ const tarotInterpretations = [
     },
     name: 'The Pope/Hierophant',
     rank: 5,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/53/hierophant-6016942_960_720.jpg',
   },
   {
     fortune_telling: [
@@ -212,7 +218,8 @@ const tarotInterpretations = [
     },
     name: 'The Lovers',
     rank: 6,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/06-lovers-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488899974',
   },
   {
     fortune_telling: [
@@ -270,7 +277,8 @@ const tarotInterpretations = [
     },
     name: 'Strength',
     rank: 8,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/08-strength-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488907598',
   },
   {
     fortune_telling: [
@@ -297,7 +305,8 @@ const tarotInterpretations = [
     },
     name: 'The Hermit',
     rank: 9,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/09-hermit-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488908315'
   },
   {
     fortune_telling: [
@@ -323,7 +332,8 @@ const tarotInterpretations = [
     },
     name: 'The Wheel',
     rank: 10,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/10-wheel-of-fortune-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488919005'
   },
   {
     fortune_telling: [
@@ -351,7 +361,8 @@ const tarotInterpretations = [
     },
     name: 'Justice',
     rank: 11,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/11-justice-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488920799'
   },
   {
     fortune_telling: [
@@ -384,7 +395,8 @@ const tarotInterpretations = [
     },
     name: 'The Hanged Man',
     rank: 12,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/12-the-hanged-man-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488921637'
   },
   {
     fortune_telling: [
@@ -411,7 +423,8 @@ const tarotInterpretations = [
     },
     name: 'Death',
     rank: 13,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/13-death-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488924373'
   },
   {
     fortune_telling: [
@@ -440,7 +453,8 @@ const tarotInterpretations = [
     },
     name: 'Temperance',
     rank: 14,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/14-temperance-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489166828'
   },
   {
     fortune_telling: [
@@ -469,7 +483,8 @@ const tarotInterpretations = [
     },
     name: 'The Devil',
     rank: 15,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/15-devil-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489167731'
   },
   {
     fortune_telling: [
@@ -504,7 +519,8 @@ const tarotInterpretations = [
     },
     name: 'The Tower',
     rank: 16,
-    suit: 'major'
+    suit: 'major',
+    img: 'https://cdn.pixabay.com/photo/2021/05/13/06/39/tarot-6249975_960_720.jpg'
   },
   {
     fortune_telling: [
@@ -540,7 +556,8 @@ const tarotInterpretations = [
     },
     name: 'The Star',
     rank: 17,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.pixabay.com/photo/2021/05/13/06/39/tarot-6249976_960_720.jpg'
   },
   {
     fortune_telling: [
@@ -567,7 +584,8 @@ const tarotInterpretations = [
     },
     name: 'The Moon',
     rank: 18,
-    suit: 'major'
+    suit: 'major',
+    img:'https://cdn.pixabay.com/photo/2021/03/18/02/20/tarot-cards-6103698_960_720.jpg'
   },
   {
     fortune_telling: [
@@ -593,7 +611,8 @@ const tarotInterpretations = [
     },
     name: 'The Sun',
     rank: 19,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/19-sun-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489190289'
   },
   {
     fortune_telling: [
@@ -627,7 +646,8 @@ const tarotInterpretations = [
     },
     name: 'Judgement',
     rank: 20,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/20-judgement-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489191901'
   },
   {
     fortune_telling: [
@@ -660,7 +680,8 @@ const tarotInterpretations = [
     },
     name: 'The World',
     rank: 21,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.pixabay.com/photo/2021/03/18/02/20/tarot-cards-6103702_960_720.jpg'
   },
   {
     fortune_telling: [
@@ -690,7 +711,8 @@ const tarotInterpretations = [
     },
     name: 'ace of wands',
     rank: 1,
-    suit: 'wands'
+    suit: 'wands',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/1-ace-of-wands-rider-waite-tarot_large.jpg?v=1488827065'
   },
   {
     fortune_telling: [
@@ -717,7 +739,8 @@ const tarotInterpretations = [
     },
     name: 'two of wands',
     rank: 2,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/2-of-wands-rider-waite-tarot_large.jpg?v=1487809667'
   },
   {
     fortune_telling: [
@@ -745,7 +768,8 @@ const tarotInterpretations = [
     },
     name: 'three of wands',
     rank: 3,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/3-of-wands-rider-waite-tarot_large.jpg?v=1487912660'
   },
   {
     fortune_telling: [
@@ -777,7 +801,8 @@ const tarotInterpretations = [
     },
     name: 'four of wands',
     rank: 4,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/4-of-wands-rider-waite-tarot_large.jpg?v=1488827781'
   },
   {
     fortune_telling: [
@@ -808,7 +833,8 @@ const tarotInterpretations = [
     },
     name: 'five of wands',
     rank: 5,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/5-of-wands-rider-waite-tarot_large.jpg?v=1487913688'
   },
   {
     fortune_telling: [
@@ -838,7 +864,8 @@ const tarotInterpretations = [
     },
     name: 'six of wands',
     rank: 6,
-    suit: 'wands'
+    suit: 'wands',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/6-of-wands-rider-waite-tarot_large.jpg?v=1487914856'
   },
   {
     fortune_telling: [
@@ -865,7 +892,8 @@ const tarotInterpretations = [
     },
     name: 'seven of wands',
     rank: 7,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/7-of-wands-rider-waite-tarot_large.jpg?v=1488828535'
   },
   {
     fortune_telling: [
@@ -894,7 +922,8 @@ const tarotInterpretations = [
     },
     name: 'eight of wands',
     rank: 8,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/8-of-wands-rider-waite-tarot_large.jpg?v=1487962182'
   },
   {
     fortune_telling: [
@@ -924,7 +953,8 @@ const tarotInterpretations = [
     },
     name: 'nine of wands',
     rank: 9,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/9-of-wands-rider-waite-tarot_large.jpg?v=1487962841'
   },
   {
     fortune_telling: [
@@ -950,7 +980,8 @@ const tarotInterpretations = [
     },
     name: 'ten of wands',
     rank: 10,
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/10-of-wands-rider-waite-tarot_large.jpg?v=1487962845'
   },
   {
     fortune_telling: [
@@ -981,7 +1012,8 @@ const tarotInterpretations = [
     },
     name: 'page of wands',
     rank: 'page',
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-wands-rider-waite-tarot_large.jpg?v=1487793857'
   },
   {
     fortune_telling: [
@@ -1008,7 +1040,8 @@ const tarotInterpretations = [
     },
     name: 'knight of wands',
     rank: 'knight',
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-wands-rider-waite-tarot_large.jpg?v=1487792295'
   },
   {
     fortune_telling: [
@@ -1032,7 +1065,8 @@ const tarotInterpretations = [
     },
     name: 'queen of wands',
     rank: 'queen',
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-wands-rider-waite-tarot_large.jpg?v=1487793831'
   },
   {
     fortune_telling: [
@@ -1056,7 +1090,8 @@ const tarotInterpretations = [
     },
     name: 'king of wands',
     rank: 'king',
-    suit: 'wands'
+    suit: 'wands', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-wands-rider-waite-tarot_large.jpg?v=1487793031'
   },
   {
     fortune_telling: [
@@ -1085,7 +1120,8 @@ const tarotInterpretations = [
     },
     name: 'ace of cups',
     rank: 1,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/ace-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489508741'
   },
   {
     fortune_telling: [
@@ -1115,7 +1151,8 @@ const tarotInterpretations = [
     },
     name: 'two of cups',
     rank: 2,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/two-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489509835'
   },
   {
     fortune_telling: [
@@ -1140,7 +1177,8 @@ const tarotInterpretations = [
     },
     name: 'three of cups',
     rank: 3,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'hhttps://cdn.shopify.com/s/files/1/1325/0879/files/three-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489510910'
   },
   {
     fortune_telling: [
@@ -1173,7 +1211,8 @@ const tarotInterpretations = [
     },
     name: 'four of cups',
     rank: 4,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/four-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489512211'
   },
   {
     fortune_telling: [
@@ -1210,7 +1249,8 @@ const tarotInterpretations = [
     },
     name: 'five of cups',
     rank: 5,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/five-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489534267'
   },
   {
     fortune_telling: [
@@ -1237,7 +1277,8 @@ const tarotInterpretations = [
     },
     name: 'six of cups',
     rank: 6,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/six-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489535637'
   },
   {
     fortune_telling: [
@@ -1263,7 +1304,8 @@ const tarotInterpretations = [
     },
     name: 'seven of cups',
     rank: 7,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/seven-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489536582'
   },
   {
     fortune_telling: [
@@ -1300,7 +1342,8 @@ const tarotInterpretations = [
     },
     name: 'eight of cups',
     rank: 8,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/eight-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489958763'
   },
   {
     fortune_telling: ["Whatever you want, you'll get it"],
@@ -1326,7 +1369,8 @@ const tarotInterpretations = [
     },
     name: 'nine of cups',
     rank: 9,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/nine-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489959507'
   },
   {
     fortune_telling: [
@@ -1351,7 +1395,8 @@ const tarotInterpretations = [
     },
     name: 'ten of cups',
     rank: 10,
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/ten-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489960338'
   },
   {
     fortune_telling: [
@@ -1384,7 +1429,8 @@ const tarotInterpretations = [
     },
     name: 'page of cups',
     rank: 'page',
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490199922'
   },
   {
     fortune_telling: [
@@ -1410,7 +1456,8 @@ const tarotInterpretations = [
     },
     name: 'knight of cups',
     rank: 'knight',
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490200689'
   },
   {
     fortune_telling: [
@@ -1441,7 +1488,8 @@ const tarotInterpretations = [
     },
     name: 'queen of cups',
     rank: 'queen',
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490201293'
   },
   {
     fortune_telling: [
@@ -1466,7 +1514,8 @@ const tarotInterpretations = [
     },
     name: 'king of cups',
     rank: 'king',
-    suit: 'cups'
+    suit: 'cups', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490202267'
   },
   {
     fortune_telling: [
@@ -1495,7 +1544,8 @@ const tarotInterpretations = [
     },
     name: 'ace of swords',
     rank: 1,
-    suit: 'swords'
+    suit: 'swords',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/01-ace-of-swords-rider-waite-tarot_large.jpg?v=1490367762'
   },
   {
     fortune_telling: [
@@ -1522,7 +1572,8 @@ const tarotInterpretations = [
     },
     name: 'two of swords',
     rank: 2,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-two-of-swords-rider-waite-tarot_large.jpg?v=1490368991'
   },
   {
     fortune_telling: [
@@ -1554,7 +1605,8 @@ const tarotInterpretations = [
     },
     name: 'three of swords',
     rank: 3,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/03-three-of-swords-rider-waite-tarot_large.jpg?v=1490370166'
   },
   {
     fortune_telling: [
@@ -1579,7 +1631,8 @@ const tarotInterpretations = [
     },
     name: 'four of swords',
     rank: 4,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/04-four-of-swords-rider-waite-tarot_large.jpg?v=1490371237'
   },
   {
     fortune_telling: [
@@ -1614,7 +1667,8 @@ const tarotInterpretations = [
     },
     name: 'five of swords',
     rank: 5,
-    suit: 'swords'
+    suit: 'swords',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/05-five-of-swords-rider-waite-tarot_large.jpg?v=1490456240'
   },
   {
     fortune_telling: [
@@ -1642,7 +1696,8 @@ const tarotInterpretations = [
     },
     name: 'six of swords',
     rank: 6,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/06-six-of-swords-rider-waite-tarot_large.jpg?v=1490456927'
   },
   {
     fortune_telling: [
@@ -1668,7 +1723,8 @@ const tarotInterpretations = [
     },
     name: 'seven of swords',
     rank: 7,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/07-seven-of-swords-rider-waite-tarot_large.jpg?v=1490457833'
   },
   {
     fortune_telling: [
@@ -1699,7 +1755,8 @@ const tarotInterpretations = [
     },
     name: 'eight of swords',
     rank: 8,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/08-eight-of-swords-rider-waite-tarot_large.jpg?v=1490458805'
   },
   {
     fortune_telling: [
@@ -1728,7 +1785,8 @@ const tarotInterpretations = [
     },
     name: 'nine of swords',
     rank: 9,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/09-nine-of-swords-rider-waite-tarot_large.jpg?v=1490459631'
   },
   {
     fortune_telling: [
@@ -1757,7 +1815,8 @@ const tarotInterpretations = [
     },
     name: 'ten of swords',
     rank: 10,
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/10-ten-of-swords-rider-waite-tarot_large.jpg?v=1490890656'
   },
   {
     fortune_telling: [
@@ -1785,7 +1844,8 @@ const tarotInterpretations = [
     },
     name: 'page of swords',
     rank: 'page',
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-swords-rider-waite-tarot_large.jpg?v=1490892553'
   },
   {
     fortune_telling: [
@@ -1818,7 +1878,8 @@ const tarotInterpretations = [
     },
     name: 'knight of swords',
     rank: 'knight',
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-swords-rider-waite-tarot_large.jpg?v=1490894085'
   },
   {
     fortune_telling: [
@@ -1849,7 +1910,8 @@ const tarotInterpretations = [
     },
     name: 'queen of swords',
     rank: 'queen',
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-swords-rider-waite-tarot_large.jpg?v=1490893392'
   },
   {
     fortune_telling: [
@@ -1877,7 +1939,8 @@ const tarotInterpretations = [
     },
     name: 'king of swords',
     rank: 'king',
-    suit: 'swords'
+    suit: 'swords', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-swords-rider-waite-tarot_large.jpg?v=1490894711'
   },
   {
     fortune_telling: [
@@ -1902,9 +1965,10 @@ const tarotInterpretations = [
         'Taking what you want without concern for the needs of others'
       ]
     },
-    name: 'ace of coins',
+    name: 'ace of pentacles',
     rank: 1,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/ace-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491866370'
   },
   {
     fortune_telling: [
@@ -1930,9 +1994,10 @@ const tarotInterpretations = [
         'Engaging in behavior with no regard for how your body or bankbook will be impacted'
       ]
     },
-    name: 'two of coins',
+    name: 'two of pentacles',
     rank: 2,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/two-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491878375'
   },
   {
     fortune_telling: [
@@ -1959,9 +2024,10 @@ const tarotInterpretations = [
         'Failing to abide by a clearly-outlined agreement with yourself or others'
       ]
     },
-    name: 'three of coins',
+    name: 'three of pentacles',
     rank: 3,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/three-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491960925'
   },
   {
     fortune_telling: ["A rainy day is coming\u2014it's time to save"],
@@ -1985,9 +2051,10 @@ const tarotInterpretations = [
         "Failing to be a good manager of the blessings you've been given"
       ]
     },
-    name: 'four of coins',
+    name: 'four of pentacles',
     rank: 4,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/four-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491961901'
   },
   {
     fortune_telling: ['Finances are getting tighter', 'Prepare for a setback'],
@@ -2011,9 +2078,10 @@ const tarotInterpretations = [
         'Wallowing in misery'
       ]
     },
-    name: 'five of coins',
+    name: 'five of pentacles',
     rank: 5,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/five-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491962947'
   },
   {
     fortune_telling: [
@@ -2040,9 +2108,10 @@ const tarotInterpretations = [
         'Ignoring obligations and commitments'
       ]
     },
-    name: 'six of coins',
+    name: 'six of pentacles',
     rank: 6,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/six-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491964733'
   },
   {
     fortune_telling: [
@@ -2068,9 +2137,10 @@ const tarotInterpretations = [
         'Refusing to take part in a project, then whining about the quality of the outcome'
       ]
     },
-    name: 'seven of coins',
+    name: 'seven of pentacles',
     rank: 7,
-    suit: 'coins'
+    suit: 'pentacles',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/seven-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491966120'
   },
   {
     fortune_telling: [
@@ -2099,9 +2169,10 @@ const tarotInterpretations = [
         'Rejecting opportunities to learn more about your craft'
       ]
     },
-    name: 'eight of coins',
+    name: 'eight of pentacles',
     rank: 8,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/eight-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491967066'
   },
   {
     fortune_telling: [
@@ -2125,9 +2196,10 @@ const tarotInterpretations = [
         'Always craving more'
       ]
     },
-    name: 'nine of coins',
+    name: 'nine of pentacles',
     rank: 9,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/nine-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492026038'
   },
   {
     fortune_telling: [
@@ -2152,9 +2224,10 @@ const tarotInterpretations = [
         'Always asking, "What\'s in it for me?"'
       ]
     },
-    name: 'ten of coins',
+    name: 'ten of pentacles',
     rank: 10,
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/ten-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491960886'
   },
   {
     fortune_telling: [
@@ -2185,9 +2258,10 @@ const tarotInterpretations = [
         'Using wealth or beauty as an excuse for not having to learn and grow'
       ]
     },
-    name: 'page of coins',
+    name: 'page of pentacles',
     rank: 'page',
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492138610'
   },
   {
     fortune_telling: [
@@ -2216,9 +2290,10 @@ const tarotInterpretations = [
         "Copying another's work and claiming it as your own"
       ]
     },
-    name: 'knight of coins',
+    name: 'knight of pentacles',
     rank: 'knight',
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492141191'
   },
   {
     fortune_telling: [
@@ -2248,9 +2323,10 @@ const tarotInterpretations = [
         "Allowing a feeling of entitlement to distort your gratitude for what you're given"
       ]
     },
-    name: 'queen of coins',
+    name: 'queen of pentacles',
     rank: 'queen',
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492141216'
   },
   {
     fortune_telling: [
@@ -2276,9 +2352,10 @@ const tarotInterpretations = [
         "Bossing others around, especially when you're not empowered to do so"
       ]
     },
-    name: 'king of coins',
+    name: 'king of pentacles',
     rank: 'king',
-    suit: 'coins'
+    suit: 'pentacles', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492203018'
   }
 ];
 
@@ -2290,7 +2367,8 @@ const cardSelection = (array) => {
   let cardDeckCount = arrayCopy.length-1;
 
   while(cardHolder.length < 3) {
-     let cardIndex = Math.floor(Math.random() * cardDeckCount);
+     let cardIndex = Math.floor(Math.random() * cardDeckCount); //cardDeckCount
+    console.log("CI", cardIndex)
      let card = arrayCopy[cardIndex];
      cardHolder.push(card);
     
@@ -2320,7 +2398,7 @@ const messageBuilder = () => {
   const selectedCards = cardSelection(tarotInterpretations);
   const cardMoods = messageMood();
   const state = ["Today, you are", "During your past, you were always", "In the future you are"]
-  let message = ``;
+  let cardData = [];
 
   if(selectedCards.length === cardMoods.length) {
     let i = 0;
@@ -2329,25 +2407,72 @@ const messageBuilder = () => {
       let mood = cardMoods[i];
       let cardLeadin = state[i] ;
 
-      message += `Card ${i+1} is the <b>${card.name.toUpperCase()}</b>. This card is rank ${card.rank} in the ${card.suit} suit. This card was presented in the ${mood}. Meaning: ${cardLeadin}: <b>${card.meanings[mood][i]}</b>. <br/><br/>`
+      cardData.push({
+        img: card.img,
+        message: `<Card ${i+1} is the <b>${card.name.toUpperCase()}</b>. This card is rank ${card.rank} in the ${card.suit} suit. This card was presented in the ${mood}. Meaning: ${cardLeadin}: <b>${card.meanings[mood][i]}</b>. <br/><br/>`
+      })
       i++;
     }
   }
-  return message
+  return cardData
 };
 
 
-// DOM Maipulation
-const appDiv = document.body.innerHTML = `
-  <div class="spread">
-    <div class="subtitles">
-         <h1> A Personalized Tarot Reading:</h1>
-         <hr>
-      <h2>This Spread Is Just For You !</h2>
-      <h4>Each card teaches you a specific lesson and a concept to meditate over</h4>
-    </div>
-    <div class="content">
-      <p>${messageBuilder()}<p>
-    </class>
-  <div>
-`;
+//DOM Manipulation
+
+function flipCard() {
+  card.classList.toggle('flipCard');
+}
+
+const card = document.getElementById('card-0');
+card.addEventListener('click', flipCard)
+
+const btn = document.getElementById('js-reveal');
+
+document.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
+
+window.onload = function () {
+  const cardData = messageBuilder();
+  console.log(cardData)
+
+  //document.getElementById('card-spread').innerHTML = fuction () {
+    let html = '';
+    let i = 0;
+
+
+    setInterval(function(){ 
+      while(i < 3){
+        // let cardId = 'card-' + i;
+        // let cardClass = 'back-'+i;
+        //console.log(cardClass)
+        document.getElementById('card-'+`${i}`).classList.toggle('flipCard');
+        document.getElementById('back-' + `${i}`).innerHTML = `<img src="${cardData[i].img}"/>`;
+        i++;
+      }
+      clearInterval()
+      //document.getElementById(`js-card-0`).classList.add('flip-card-back')
+     }, 3000);
+
+    //  setTimeout(function(){ 
+    //   document.getElementById(`js-card-1`).style.transform = 'rotateY(180deg)'
+    //  }, 2000);
+
+    //  setTimeout(function(){ 
+    //   document.getElementById(`js-card-2`).style.transform = 'rotateY(180deg)'
+    //  }, 3000);
+  };
+// const appDiv = document.getElementById('card-spread').innerHTML = `
+//   <div class="spread">
+//     <div class="subtitles">
+//          <h1> A Personalized Tarot Reading:</h1>
+//          <hr>
+//       <h2>This Spread Is Just For You !</h2>
+//       <h4>Each card teaches you a specific lesson and a concept to meditate over</h4>
+//     </div>
+//     <div class="content">
+//       <p>${messageBuilder()}<p>
+//     </class>
+//   <div>
+// `;
