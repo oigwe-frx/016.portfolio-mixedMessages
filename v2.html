@@ -22,8 +22,10 @@
 <body>
   <!--Visible Content-->
   <div class="container">
+
+    <!--Header-->
     <header class="row">
-      <section class="greyBkgrnd">
+      <section>
         <h1>Reading</h1>
       </section>
       <section class="hero">
@@ -34,32 +36,51 @@
       </section>
       <hr />
     </header>
-    <div class="content row">
-      <div class="col-2"></div>
-      <div class="col-8">
-        <div class="row">
-          <div class="card col">
-              <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img-top flip-card" alt="...">
-              <div class="card-body">
-                <p class="card-text text-center">Past</p>
+
+    <!--Reveal Button-->
+    <section class="row">
+      <button class="btn btn-secondary reveal " type="button" id="js-reveal">Click to Reveal Your Insights</button>
+    </section>
+
+    <!--Cards-->
+    <section class="content row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row" id="card-spread">
+
+          <!--Past Card-->
+          <div class="card col main-container">
+            <div class="card-body ">
+              <p class="card-text text-center">Past</p>
+            </div>
+            <div class="card-content" id="card-0">
+              <div class="front">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
               </div>
+              <div class="back" id="back-0">
+              </div>
+            </div>
           </div>
+
+          <!--Preset Card-->
           <div class="card col">
-            <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img-top flip-card" alt="...">
             <div class="card-body">
               <p class="card-text text-center">Present</p>
             </div>
+            <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img-top"  id="js-card-1" alt="...">
           </div>
+
+          <!--Future Card-->
           <div class="card col">
-            <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img-top flip-card" alt="...">
             <div class="card-body">
               <p class="card-text text-center">Future</p>
             </div>
+            <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img-top" id="js-card-2" alt="...">
           </div>
         </div>
       </div>
-      <div class="col-2"></div>
-    </div>
+      <div class="col-1"></div>
+  </div>
   </div>
 
   <!--Script: Custom-->
