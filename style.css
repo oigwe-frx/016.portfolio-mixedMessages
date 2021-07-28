@@ -1,30 +1,109 @@
-html {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOEn5RB2ti5-9XQY1NwEPZb_Ol19bSIdFdw&usqp=CAU');
-  font-family: 'Libre Franklin', sans-serif;
+body {
+  background-color: #010101;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin: 50px 0;
 }
+
 h1 {
-  font-family: 'Benne', serif;
-  font-size: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  /*margin: 10px 0 ;*/
+  /*padding: 0 30px;*/
 }
 
-hr {
-  margin-left: 10em;
-  margin-right: 10em;
-}
-
-.content {
-  margin: 0;
-  padding: 3em;
-  background-color: white;
-  color: black;
-}
-
-.spread {
-  color: white;
-}
-
-.subtitles {
+h4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 0.9;
   text-align: center;
-  padding: 1em;
-  color: white;
+  margin: 30px;
+  padding: 0 30px;
+  font-weight: normal;
+}
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin: 25px 0;*/
+  margin: 10px 0 25px 0;
+}
+
+.hero::before {
+  content: '';
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.greyBkgrnd {
+  /*background-color: #323232;*/
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: transparent;
+  padding: 0;
+}
+
+.reveal {
+  margin-bottom: 25px;
+}
+.reveal:hover {
+  background-color: rgb(156, 133, 2);
+
+}
+
+.main-container {
+  /*position: absolute;*/
+  background: none;
+  /*width: 208px;
+  height: 400px;*/
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+.flipCard {
+  transform: rotateY(180deg)
+}
+
+.back img {
+  width: 100%;
+  height: auto;
 }
