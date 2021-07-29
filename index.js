@@ -32,7 +32,7 @@ const tarotInterpretations = [
     name: 'The Fool',
     rank: 0,
     suit: 'major',
-    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/52/the-fool-6016940_960_720.jpg',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/00-the-fool-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488830231',
   },
   {
     fortune_telling: [
@@ -61,7 +61,7 @@ const tarotInterpretations = [
     name: 'The Magician',
     rank: 1,
     suit: 'major',
-    img: 'https://cdn.pixabay.com/photo/2021/03/18/02/19/the-magician-6103696_960_720.jpg',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/01-magician-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488831620',
   },
   {
     fortune_telling: [
@@ -124,7 +124,7 @@ const tarotInterpretations = [
     name: 'The Empress',
     rank: 3,
     suit: 'major',
-    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/46/empress-6016923_960_720.jpg'
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/03-empress-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488861544'
   },
   {
     fortune_telling: [
@@ -184,7 +184,7 @@ const tarotInterpretations = [
     name: 'The Pope/Hierophant',
     rank: 5,
     suit: 'major',
-    img: 'https://cdn.pixabay.com/photo/2021/02/15/07/53/hierophant-6016942_960_720.jpg',
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/05-hierophant-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488864297',
   },
   {
     fortune_telling: [
@@ -240,7 +240,8 @@ const tarotInterpretations = [
     },
     name: 'The Chariot',
     rank: 7,
-    suit: 'major'
+    suit: 'major', 
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/07-chariot-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488905893'
   },
   {
     fortune_telling: [
@@ -514,7 +515,7 @@ const tarotInterpretations = [
     name: 'The Tower',
     rank: 16,
     suit: 'major',
-    img: 'https://cdn.pixabay.com/photo/2021/05/13/06/39/tarot-6249975_960_720.jpg'
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/16-tower-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489185810'
   },
   {
     fortune_telling: [
@@ -551,7 +552,7 @@ const tarotInterpretations = [
     name: 'The Star',
     rank: 17,
     suit: 'major', 
-    img: 'https://cdn.pixabay.com/photo/2021/05/13/06/39/tarot-6249976_960_720.jpg'
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/17-star-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489187058'
   },
   {
     fortune_telling: [
@@ -579,7 +580,7 @@ const tarotInterpretations = [
     name: 'The Moon',
     rank: 18,
     suit: 'major',
-    img:'https://cdn.pixabay.com/photo/2021/03/18/02/20/tarot-cards-6103698_960_720.jpg'
+    img:'https://cdn.shopify.com/s/files/1/1325/0879/files/18-moon-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489188278'
   },
   {
     fortune_telling: [
@@ -675,418 +676,418 @@ const tarotInterpretations = [
     name: 'The World',
     rank: 21,
     suit: 'major', 
-    img: 'https://cdn.pixabay.com/photo/2021/03/18/02/20/tarot-cards-6103702_960_720.jpg'
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/21-the-world-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489193401'
   },
-  {
-    fortune_telling: [
-      'Someone has the "hots" for you',
-      'A new job offer is coming your way',
-      'Walk softly, and carry a big stick'
-    ],
-    keywords: ['desire', 'inspiration', 'vision', 'creation', 'invention'],
-    meanings: {
-      light: [
-        'Being inspired',
-        'Identifying an important goal',
-        'Being given the opportunity to do whatever you want to do',
-        'Giving or receiving direction',
-        'Seeing a solution',
-        'Creating something new',
-        'Being aroused, sexually or creatively'
-      ],
-      shadow: [
-        'Failing to take advantage of a great opportunity',
-        'Being ineffectual or lazy',
-        'Making an inadequate effort',
-        'Working toward a goal, but lacking the resources or initiative to achieve success',
-        'Setting inappropriate goals',
-        'Failing to take a stand'
-      ]
-    },
-    name: 'ace of wands',
-    rank: 1,
-    suit: 'wands',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/1-ace-of-wands-rider-waite-tarot_large.jpg?v=1488827065'
-  },
-  {
-    fortune_telling: [
-      'Beware false friends',
-      "Don't be mealy-mouthed; say what you think and do what you want to do"
-    ],
-    keywords: ['conflict', 'decision', 'option', 'individuality'],
-    meanings: {
-      light: [
-        'Having a choice',
-        'Offering or being offered an option',
-        "Seeing the value of another person's approach",
-        'Understanding there\'s more than one way to "skin a cat"',
-        'Successfully doing more than one thing at a time',
-        'Being empowered to make a choice'
-      ],
-      shadow: [
-        'Misrepresenting your intentions',
-        'Doing one thing while desiring another',
-        'Changing course mid-stream for no good reason',
-        'Refusing to change your goal even when pursuing it no longer makes sense',
-        'Disregarding the input of others'
-      ]
-    },
-    name: 'two of wands',
-    rank: 2,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/2-of-wands-rider-waite-tarot_large.jpg?v=1487809667'
-  },
-  {
-    fortune_telling: [
-      "You'll be planning a trip soon",
-      'Be on the lookout: your ship is coming in'
-    ],
-    keywords: ['implementation', 'action', 'exploration'],
-    meanings: {
-      light: [
-        'Putting a plan into motion',
-        'Taking that critical first step',
-        'Making good things happen',
-        'Going beyond your limits',
-        'Blazing new trails',
-        'Hitting the ground running',
-        'Seeing your plans come to fruition'
-      ],
-      shadow: [
-        'Procrastinating',
-        'Knowing what to do, but refusing to do it',
-        'Launching a project without a clear definition of who should do what',
-        'Rejecting an opportunity to try something new',
-        'Failing to finish what you start'
-      ]
-    },
-    name: 'three of wands',
-    rank: 3,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/3-of-wands-rider-waite-tarot_large.jpg?v=1487912660'
-  },
-  {
-    fortune_telling: [
-      'Someone is watching and evaluating your work',
-      'You may get a wedding invitation soon'
-    ],
-    keywords: [
-      'celebration',
-      'jubilation',
-      'community',
-      'teamwork',
-      'completion'
-    ],
-    meanings: {
-      light: [
-        'Sharing in a great celebration',
-        'Sharing in a communal sense of achievement and success',
-        'Preparing for a party',
-        'Working together toward a common goal',
-        'Giving or winning awards'
-      ],
-      shadow: [
-        'Keeping your nose to the grindstone',
-        'Recognizing good work by demanding more work',
-        'Failing to share in a group celebration',
-        'Allowing sour grapes to poison your moment in the sun',
-        'Refusing to do your part'
-      ]
-    },
-    name: 'four of wands',
-    rank: 4,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/4-of-wands-rider-waite-tarot_large.jpg?v=1488827781'
-  },
-  {
-    fortune_telling: [
-      'Prepare for a fight with your best friend',
-      "Remember: once you let words loose, you can't take them back"
-    ],
-    keywords: [
-      'confrontation',
-      'disruption',
-      'distinction',
-      'objection',
-      'strife'
-    ],
-    meanings: {
-      light: [
-        'Calmly expressing a dissenting opinion',
-        'Allowing someone to use his or her own methods to get a job done',
-        'Opening the floor for discussion or debate',
-        'Comparing progress made so far to standards set earlier'
-      ],
-      shadow: [
-        'Berating others for their ridiculous opinions',
-        'Picking fights',
-        'Offering destructive criticism',
-        'Baiting people with barbed remarks',
-        'Disrupting progress with an endless stream of pointless objections'
-      ]
-    },
-    name: 'five of wands',
-    rank: 5,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/5-of-wands-rider-waite-tarot_large.jpg?v=1487913688'
-  },
-  {
-    fortune_telling: [
-      'Someone is planning a party for you, but not everyone feels so good about your recent success',
-      'Watch out for envious friends'
-    ],
-    keywords: ['victory', 'achievement', 'success', 'triumph'],
-    meanings: {
-      light: [
-        'Outperforming your peers',
-        'Winning a competition',
-        'Being recognized as a capable person',
-        'Having your "moment in the spotlight"',
-        'Being cheered on by the crowd',
-        'Getting an award',
-        'Earning the admiration of others',
-        'Telling someone, "Good job!"'
-      ],
-      shadow: [
-        'Being a bad winner',
-        'Allowing your achievements to inflate your ego',
-        'Looking down on people who seem less capable',
-        'Craving to be the center of attention',
-        'Giving or receiving insincere praise',
-        'Envying the achievements of others'
-      ]
-    },
-    name: 'six of wands',
-    rank: 6,
-    suit: 'wands',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/6-of-wands-rider-waite-tarot_large.jpg?v=1487914856'
-  },
-  {
-    fortune_telling: [
-      "Don't be surprised by a personal attack",
-      'Prepare to defend yourself or someone you love'
-    ],
-    keywords: ['bravery', 'resolve', 'determination'],
-    meanings: {
-      light: [
-        'Refusing to be silenced through fear or intimidation',
-        'Continuing a fight against all odds',
-        'Being fierce',
-        'Defending yourself against physical and emotional attacks',
-        'Refusing to put up with abuse',
-        'Clinging to your values despite all pressure to abandon them'
-      ],
-      shadow: [
-        'Having a chip on your shoulder',
-        'Taking unnecessary risks as a means of proving your fearlessness',
-        'Looking for an opportunity to take offense',
-        'Responding to constructive criticism with defensiveness',
-        'Refusing to stand up for yourself and your beliefs'
-      ]
-    },
-    name: 'seven of wands',
-    rank: 7,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/7-of-wands-rider-waite-tarot_large.jpg?v=1488828535'
-  },
-  {
-    fortune_telling: [
-      'Watch for a surprising letter in the mail',
-      'Your whole world is about to be turned on its ear'
-    ],
-    keywords: ['speed', 'swiftness', 'responsiveness', 'change'],
-    meanings: {
-      light: [
-        'Taking swift action',
-        'Moving forward with a plan as quickly as possible',
-        'Energizing yourself',
-        'Adapting to sudden changes',
-        'Taking setbacks in stride',
-        'Embracing the idea that nothing stays the same forever',
-        'Reacting quickly and appropriately to unforeseen problems'
-      ],
-      shadow: [
-        'Giving in to panic',
-        'Running in circles and screaming',
-        'Insisting things must always stay the same',
-        'Stirring the pot just to see what will happen',
-        'Rushing others',
-        "Refusing to re-evaluate a schedule or program, even when it's clearly no longer appropriate"
-      ]
-    },
-    name: 'eight of wands',
-    rank: 8,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/8-of-wands-rider-waite-tarot_large.jpg?v=1487962182'
-  },
-  {
-    fortune_telling: [
-      "Don't relax yet; there's more to come",
-      "The test you're facing now is happening for one reason: to show you who your real friends are"
-    ],
-    keywords: ['toughness', 'persistence', 'stamina', 'loyalty', 'release'],
-    meanings: {
-      light: [
-        'Sticking with it for the duration',
-        'Fulfilling your promises and obligations',
-        'Bearing up under incredible duress',
-        'Dragging yourself across the finish line',
-        'Picking yourself up by your own bootstraps',
-        'Refusing to quit',
-        'Going as far as you can go and being satisfied with your performance'
-      ],
-      shadow: [
-        'Making yourself a martyr',
-        'Abandoning your post',
-        'Giving up at the first sign of opposition',
-        'Being prevented from fulfilling an obligation',
-        'Failing to be dependable',
-        'Refusing to let something go that needs to be released',
-        'Beating a dead horse'
-      ]
-    },
-    name: 'nine of wands',
-    rank: 9,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/9-of-wands-rider-waite-tarot_large.jpg?v=1487962841'
-  },
-  {
-    fortune_telling: [
-      "You're worn out",
-      'Back off, take a time out, and let someone else handle things for a while'
-    ],
-    keywords: ['exhaustion', 'resistance', 'burden', 'oppression'],
-    meanings: {
-      light: [
-        'Holding your own in extreme circumstances',
-        'Helping others carry their burdens',
-        'Coming to the aid of the oppressed',
-        'Knowing and being honest about your own limits',
-        'Recognizing when you are not well-suited for a particular task'
-      ],
-      shadow: [
-        'Taking on more work than you know you can handle',
-        'Refusing to say "No" when you\'re already overloaded',
-        'Making a habit of working overtime',
-        'Shielding others from facing the consequences of their own poor judgment',
-        'Over-extending yourself on a regular basis'
-      ]
-    },
-    name: 'ten of wands',
-    rank: 10,
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/10-of-wands-rider-waite-tarot_large.jpg?v=1487962845'
-  },
-  {
-    fortune_telling: [
-      'This card represents a young man or woman with a fiery, enthusiastic demeanor, likely born a Cancer, Leo, or Virgo, who wants to start a new relationship with you'
-    ],
-    keywords: [
-      'enthusiasm',
-      'eagerness',
-      'confidence',
-      'validation',
-      'affirmation'
-    ],
-    meanings: {
-      light: [
-        'Leaping at a new opportunity',
-        'Being a cheerleader or ardent advocate for your cause',
-        'Being a True Believer',
-        'Taking first steps toward independence',
-        'Trusting in your own abilities',
-        'Asking for feedback'
-      ],
-      shadow: [
-        'Basing your entire self-image on what others think',
-        'Seizing every new idea that comes your way without question',
-        'Habitually discounting input or feedback from others',
-        'Being so eager to "do it yourself" that you hinder your own progress'
-      ]
-    },
-    name: 'page of wands',
-    rank: 'page',
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-wands-rider-waite-tarot_large.jpg?v=1487793857'
-  },
-  {
-    fortune_telling: [
-      'This card represents a man with a bold, passionate personality, likely born between July 12th and August 11th, who wants to sweep you off your feet'
-    ],
-    keywords: ['boldness', 'bravado', 'passion', 'persuasion', 'advocacy'],
-    meanings: {
-      light: [
-        'Charging ahead',
-        'Making rapid progress',
-        'Refusing limits',
-        'Dazzling those around you with your wit and charm',
-        'Convincing others of your right to leadership',
-        'Convincing others to follow you',
-        'Being a catalyst for change'
-      ],
-      shadow: [
-        'Blundering forward with inadequate skill or information',
-        'Running roughshod over the feelings of others',
-        'Using sex appeal to manipulate others',
-        'Forcing your leadership or ideology on others',
-        'Beginning many projects without finishing any'
-      ]
-    },
-    name: 'knight of wands',
-    rank: 'knight',
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-wands-rider-waite-tarot_large.jpg?v=1487792295'
-  },
-  {
-    fortune_telling: [
-      'This card represents a woman with an attractive, appealing personality, likely born between March 11th and April 20th, who wants to charm you into doing things her way'
-    ],
-    keywords: ['attention', 'attraction', 'unification', 'collaboration'],
-    meanings: {
-      light: [
-        'Paying close attention',
-        'Helping others focus on the issue at hand',
-        'Getting everyone to work together',
-        'Identifying common ground',
-        'Bringing people together, despite their differences',
-        'Using reverse psychology'
-      ],
-      shadow: [
-        'Being distracted, or using your charms or skills to distract others from the goal',
-        'Calling attention to yourself with negative or unhealthy behaviors',
-        'Disrupting group activities as a means of feeding your own ego'
-      ]
-    },
-    name: 'queen of wands',
-    rank: 'queen',
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-wands-rider-waite-tarot_large.jpg?v=1487793831'
-  },
-  {
-    fortune_telling: [
-      'This card represents an older man with a commanding, charismatic personality, likely born between November 13th and December 12th, who prefers to give directions and have them followed'
-    ],
-    keywords: ['creativity', 'ingenuity', 'achievement', 'direction'],
-    meanings: {
-      light: [
-        'Putting old things together in new and exciting ways',
-        'Coming up with unexpected solutions',
-        'Using your experience to solve puzzles and problems',
-        'Doing what you set out to do',
-        'Directing the efforts of others'
-      ],
-      shadow: [
-        'Using your creativity to get out of honest work',
-        'Investing great energy in avoiding responsibility',
-        'Boasting about achievements without putting your expertise to practical use',
-        'Lording it over others'
-      ]
-    },
-    name: 'king of wands',
-    rank: 'king',
-    suit: 'wands', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-wands-rider-waite-tarot_large.jpg?v=1487793031'
-  },
+  // {
+  //   fortune_telling: [
+  //     'Someone has the "hots" for you',
+  //     'A new job offer is coming your way',
+  //     'Walk softly, and carry a big stick'
+  //   ],
+  //   keywords: ['desire', 'inspiration', 'vision', 'creation', 'invention'],
+  //   meanings: {
+  //     light: [
+  //       'Being inspired',
+  //       'Identifying an important goal',
+  //       'Being given the opportunity to do whatever you want to do',
+  //       'Giving or receiving direction',
+  //       'Seeing a solution',
+  //       'Creating something new',
+  //       'Being aroused, sexually or creatively'
+  //     ],
+  //     shadow: [
+  //       'Failing to take advantage of a great opportunity',
+  //       'Being ineffectual or lazy',
+  //       'Making an inadequate effort',
+  //       'Working toward a goal, but lacking the resources or initiative to achieve success',
+  //       'Setting inappropriate goals',
+  //       'Failing to take a stand'
+  //     ]
+  //   },
+  //   name: 'ace of wands',
+  //   rank: 1,
+  //   suit: 'wands',
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/1-ace-of-wands-rider-waite-tarot_large.jpg?v=1488827065'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'Beware false friends',
+  //     "Don't be mealy-mouthed; say what you think and do what you want to do"
+  //   ],
+  //   keywords: ['conflict', 'decision', 'option', 'individuality'],
+  //   meanings: {
+  //     light: [
+  //       'Having a choice',
+  //       'Offering or being offered an option',
+  //       "Seeing the value of another person's approach",
+  //       'Understanding there\'s more than one way to "skin a cat"',
+  //       'Successfully doing more than one thing at a time',
+  //       'Being empowered to make a choice'
+  //     ],
+  //     shadow: [
+  //       'Misrepresenting your intentions',
+  //       'Doing one thing while desiring another',
+  //       'Changing course mid-stream for no good reason',
+  //       'Refusing to change your goal even when pursuing it no longer makes sense',
+  //       'Disregarding the input of others'
+  //     ]
+  //   },
+  //   name: 'two of wands',
+  //   rank: 2,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/2-of-wands-rider-waite-tarot_large.jpg?v=1487809667'
+  // },
+  // {
+  //   fortune_telling: [
+  //     "You'll be planning a trip soon",
+  //     'Be on the lookout: your ship is coming in'
+  //   ],
+  //   keywords: ['implementation', 'action', 'exploration'],
+  //   meanings: {
+  //     light: [
+  //       'Putting a plan into motion',
+  //       'Taking that critical first step',
+  //       'Making good things happen',
+  //       'Going beyond your limits',
+  //       'Blazing new trails',
+  //       'Hitting the ground running',
+  //       'Seeing your plans come to fruition'
+  //     ],
+  //     shadow: [
+  //       'Procrastinating',
+  //       'Knowing what to do, but refusing to do it',
+  //       'Launching a project without a clear definition of who should do what',
+  //       'Rejecting an opportunity to try something new',
+  //       'Failing to finish what you start'
+  //     ]
+  //   },
+  //   name: 'three of wands',
+  //   rank: 3,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/3-of-wands-rider-waite-tarot_large.jpg?v=1487912660'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'Someone is watching and evaluating your work',
+  //     'You may get a wedding invitation soon'
+  //   ],
+  //   keywords: [
+  //     'celebration',
+  //     'jubilation',
+  //     'community',
+  //     'teamwork',
+  //     'completion'
+  //   ],
+  //   meanings: {
+  //     light: [
+  //       'Sharing in a great celebration',
+  //       'Sharing in a communal sense of achievement and success',
+  //       'Preparing for a party',
+  //       'Working together toward a common goal',
+  //       'Giving or winning awards'
+  //     ],
+  //     shadow: [
+  //       'Keeping your nose to the grindstone',
+  //       'Recognizing good work by demanding more work',
+  //       'Failing to share in a group celebration',
+  //       'Allowing sour grapes to poison your moment in the sun',
+  //       'Refusing to do your part'
+  //     ]
+  //   },
+  //   name: 'four of wands',
+  //   rank: 4,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/4-of-wands-rider-waite-tarot_large.jpg?v=1488827781'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'Prepare for a fight with your best friend',
+  //     "Remember: once you let words loose, you can't take them back"
+  //   ],
+  //   keywords: [
+  //     'confrontation',
+  //     'disruption',
+  //     'distinction',
+  //     'objection',
+  //     'strife'
+  //   ],
+  //   meanings: {
+  //     light: [
+  //       'Calmly expressing a dissenting opinion',
+  //       'Allowing someone to use his or her own methods to get a job done',
+  //       'Opening the floor for discussion or debate',
+  //       'Comparing progress made so far to standards set earlier'
+  //     ],
+  //     shadow: [
+  //       'Berating others for their ridiculous opinions',
+  //       'Picking fights',
+  //       'Offering destructive criticism',
+  //       'Baiting people with barbed remarks',
+  //       'Disrupting progress with an endless stream of pointless objections'
+  //     ]
+  //   },
+  //   name: 'five of wands',
+  //   rank: 5,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/5-of-wands-rider-waite-tarot_large.jpg?v=1487913688'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'Someone is planning a party for you, but not everyone feels so good about your recent success',
+  //     'Watch out for envious friends'
+  //   ],
+  //   keywords: ['victory', 'achievement', 'success', 'triumph'],
+  //   meanings: {
+  //     light: [
+  //       'Outperforming your peers',
+  //       'Winning a competition',
+  //       'Being recognized as a capable person',
+  //       'Having your "moment in the spotlight"',
+  //       'Being cheered on by the crowd',
+  //       'Getting an award',
+  //       'Earning the admiration of others',
+  //       'Telling someone, "Good job!"'
+  //     ],
+  //     shadow: [
+  //       'Being a bad winner',
+  //       'Allowing your achievements to inflate your ego',
+  //       'Looking down on people who seem less capable',
+  //       'Craving to be the center of attention',
+  //       'Giving or receiving insincere praise',
+  //       'Envying the achievements of others'
+  //     ]
+  //   },
+  //   name: 'six of wands',
+  //   rank: 6,
+  //   suit: 'wands',
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/6-of-wands-rider-waite-tarot_large.jpg?v=1487914856'
+  // },
+  // {
+  //   fortune_telling: [
+  //     "Don't be surprised by a personal attack",
+  //     'Prepare to defend yourself or someone you love'
+  //   ],
+  //   keywords: ['bravery', 'resolve', 'determination'],
+  //   meanings: {
+  //     light: [
+  //       'Refusing to be silenced through fear or intimidation',
+  //       'Continuing a fight against all odds',
+  //       'Being fierce',
+  //       'Defending yourself against physical and emotional attacks',
+  //       'Refusing to put up with abuse',
+  //       'Clinging to your values despite all pressure to abandon them'
+  //     ],
+  //     shadow: [
+  //       'Having a chip on your shoulder',
+  //       'Taking unnecessary risks as a means of proving your fearlessness',
+  //       'Looking for an opportunity to take offense',
+  //       'Responding to constructive criticism with defensiveness',
+  //       'Refusing to stand up for yourself and your beliefs'
+  //     ]
+  //   },
+  //   name: 'seven of wands',
+  //   rank: 7,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/7-of-wands-rider-waite-tarot_large.jpg?v=1488828535'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'Watch for a surprising letter in the mail',
+  //     'Your whole world is about to be turned on its ear'
+  //   ],
+  //   keywords: ['speed', 'swiftness', 'responsiveness', 'change'],
+  //   meanings: {
+  //     light: [
+  //       'Taking swift action',
+  //       'Moving forward with a plan as quickly as possible',
+  //       'Energizing yourself',
+  //       'Adapting to sudden changes',
+  //       'Taking setbacks in stride',
+  //       'Embracing the idea that nothing stays the same forever',
+  //       'Reacting quickly and appropriately to unforeseen problems'
+  //     ],
+  //     shadow: [
+  //       'Giving in to panic',
+  //       'Running in circles and screaming',
+  //       'Insisting things must always stay the same',
+  //       'Stirring the pot just to see what will happen',
+  //       'Rushing others',
+  //       "Refusing to re-evaluate a schedule or program, even when it's clearly no longer appropriate"
+  //     ]
+  //   },
+  //   name: 'eight of wands',
+  //   rank: 8,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/8-of-wands-rider-waite-tarot_large.jpg?v=1487962182'
+  // },
+  // {
+  //   fortune_telling: [
+  //     "Don't relax yet; there's more to come",
+  //     "The test you're facing now is happening for one reason: to show you who your real friends are"
+  //   ],
+  //   keywords: ['toughness', 'persistence', 'stamina', 'loyalty', 'release'],
+  //   meanings: {
+  //     light: [
+  //       'Sticking with it for the duration',
+  //       'Fulfilling your promises and obligations',
+  //       'Bearing up under incredible duress',
+  //       'Dragging yourself across the finish line',
+  //       'Picking yourself up by your own bootstraps',
+  //       'Refusing to quit',
+  //       'Going as far as you can go and being satisfied with your performance'
+  //     ],
+  //     shadow: [
+  //       'Making yourself a martyr',
+  //       'Abandoning your post',
+  //       'Giving up at the first sign of opposition',
+  //       'Being prevented from fulfilling an obligation',
+  //       'Failing to be dependable',
+  //       'Refusing to let something go that needs to be released',
+  //       'Beating a dead horse'
+  //     ]
+  //   },
+  //   name: 'nine of wands',
+  //   rank: 9,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/9-of-wands-rider-waite-tarot_large.jpg?v=1487962841'
+  // },
+  // {
+  //   fortune_telling: [
+  //     "You're worn out",
+  //     'Back off, take a time out, and let someone else handle things for a while'
+  //   ],
+  //   keywords: ['exhaustion', 'resistance', 'burden', 'oppression'],
+  //   meanings: {
+  //     light: [
+  //       'Holding your own in extreme circumstances',
+  //       'Helping others carry their burdens',
+  //       'Coming to the aid of the oppressed',
+  //       'Knowing and being honest about your own limits',
+  //       'Recognizing when you are not well-suited for a particular task'
+  //     ],
+  //     shadow: [
+  //       'Taking on more work than you know you can handle',
+  //       'Refusing to say "No" when you\'re already overloaded',
+  //       'Making a habit of working overtime',
+  //       'Shielding others from facing the consequences of their own poor judgment',
+  //       'Over-extending yourself on a regular basis'
+  //     ]
+  //   },
+  //   name: 'ten of wands',
+  //   rank: 10,
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/10-of-wands-rider-waite-tarot_large.jpg?v=1487962845'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'This card represents a young man or woman with a fiery, enthusiastic demeanor, likely born a Cancer, Leo, or Virgo, who wants to start a new relationship with you'
+  //   ],
+  //   keywords: [
+  //     'enthusiasm',
+  //     'eagerness',
+  //     'confidence',
+  //     'validation',
+  //     'affirmation'
+  //   ],
+  //   meanings: {
+  //     light: [
+  //       'Leaping at a new opportunity',
+  //       'Being a cheerleader or ardent advocate for your cause',
+  //       'Being a True Believer',
+  //       'Taking first steps toward independence',
+  //       'Trusting in your own abilities',
+  //       'Asking for feedback'
+  //     ],
+  //     shadow: [
+  //       'Basing your entire self-image on what others think',
+  //       'Seizing every new idea that comes your way without question',
+  //       'Habitually discounting input or feedback from others',
+  //       'Being so eager to "do it yourself" that you hinder your own progress'
+  //     ]
+  //   },
+  //   name: 'page of wands',
+  //   rank: 'page',
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-wands-rider-waite-tarot_large.jpg?v=1487793857'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'This card represents a man with a bold, passionate personality, likely born between July 12th and August 11th, who wants to sweep you off your feet'
+  //   ],
+  //   keywords: ['boldness', 'bravado', 'passion', 'persuasion', 'advocacy'],
+  //   meanings: {
+  //     light: [
+  //       'Charging ahead',
+  //       'Making rapid progress',
+  //       'Refusing limits',
+  //       'Dazzling those around you with your wit and charm',
+  //       'Convincing others of your right to leadership',
+  //       'Convincing others to follow you',
+  //       'Being a catalyst for change'
+  //     ],
+  //     shadow: [
+  //       'Blundering forward with inadequate skill or information',
+  //       'Running roughshod over the feelings of others',
+  //       'Using sex appeal to manipulate others',
+  //       'Forcing your leadership or ideology on others',
+  //       'Beginning many projects without finishing any'
+  //     ]
+  //   },
+  //   name: 'knight of wands',
+  //   rank: 'knight',
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-wands-rider-waite-tarot_large.jpg?v=1487792295'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'This card represents a woman with an attractive, appealing personality, likely born between March 11th and April 20th, who wants to charm you into doing things her way'
+  //   ],
+  //   keywords: ['attention', 'attraction', 'unification', 'collaboration'],
+  //   meanings: {
+  //     light: [
+  //       'Paying close attention',
+  //       'Helping others focus on the issue at hand',
+  //       'Getting everyone to work together',
+  //       'Identifying common ground',
+  //       'Bringing people together, despite their differences',
+  //       'Using reverse psychology'
+  //     ],
+  //     shadow: [
+  //       'Being distracted, or using your charms or skills to distract others from the goal',
+  //       'Calling attention to yourself with negative or unhealthy behaviors',
+  //       'Disrupting group activities as a means of feeding your own ego'
+  //     ]
+  //   },
+  //   name: 'queen of wands',
+  //   rank: 'queen',
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-wands-rider-waite-tarot_large.jpg?v=1487793831'
+  // },
+  // {
+  //   fortune_telling: [
+  //     'This card represents an older man with a commanding, charismatic personality, likely born between November 13th and December 12th, who prefers to give directions and have them followed'
+  //   ],
+  //   keywords: ['creativity', 'ingenuity', 'achievement', 'direction'],
+  //   meanings: {
+  //     light: [
+  //       'Putting old things together in new and exciting ways',
+  //       'Coming up with unexpected solutions',
+  //       'Using your experience to solve puzzles and problems',
+  //       'Doing what you set out to do',
+  //       'Directing the efforts of others'
+  //     ],
+  //     shadow: [
+  //       'Using your creativity to get out of honest work',
+  //       'Investing great energy in avoiding responsibility',
+  //       'Boasting about achievements without putting your expertise to practical use',
+  //       'Lording it over others'
+  //     ]
+  //   },
+  //   name: 'king of wands',
+  //   rank: 'king',
+  //   suit: 'wands', 
+  //   img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-wands-rider-waite-tarot_large.jpg?v=1487793031'
+  // },
   {
     fortune_telling: [
       'Romance is in the cards',
@@ -1172,7 +1173,7 @@ const tarotInterpretations = [
     name: 'three of cups',
     rank: 3,
     suit: 'cups', 
-    img: 'hhttps://cdn.shopify.com/s/files/1/1325/0879/files/three-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489510910'
+    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/three-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489510910'
   },
   {
     fortune_telling: [
@@ -2360,9 +2361,9 @@ const cardSelection = (array) => {
   let arrayCopy = array;
   let cardDeckCount = arrayCopy.length-1;
 
+
   while(cardHolder.length < 3) {
-     let cardIndex = Math.floor(Math.random() * cardDeckCount); //cardDeckCount
-    console.log("CI", cardIndex)
+     let cardIndex = Math.floor(Math.random() * cardDeckCount); 
      let card = arrayCopy[cardIndex];
      cardHolder.push(card);
     
@@ -2390,8 +2391,10 @@ const messageMood = () => {
 // Message Composition
 const messageBuilder = () => {
   const selectedCards = cardSelection(tarotInterpretations);
+
+
   const cardMoods = messageMood();
-  const state = ["Today, you are", "During your past, you were always", "In the future you are"]
+  const state = ["During your past, you were always", "Today, you are", "In the future you are"]
   let cardData = [];
 
   if(selectedCards.length === cardMoods.length) {
@@ -2401,9 +2404,18 @@ const messageBuilder = () => {
       let mood = cardMoods[i];
       let cardLeadin = state[i] ;
 
+
       cardData.push({
         img: card.img,
-        message: `<Card ${i+1} is the <b>${card.name.toUpperCase()}</b>. This card is rank ${card.rank} in the ${card.suit} suit. This card was presented in the ${mood}. Meaning: ${cardLeadin}: <b>${card.meanings[mood][i]}</b>. <br/><br/>`
+        message: ` <b>Card ${i+1}:</b>
+        ${card.name.toUpperCase()}
+        <br/>
+        <b>Mood:</b> ${mood.toUpperCase()} <br/>
+        <b>Meaning:</b>
+         ${cardLeadin} ${card.meanings[mood][i].toLowerCase()}.
+        <br/>
+        <b>Ponder:</b>
+        ${card.fortune_telling[i] || card.fortune_telling[0]}. <br/><br/>`
       })
       i++;
     }
@@ -2414,59 +2426,52 @@ const messageBuilder = () => {
 
 //DOM Manipulation
 
-function flipCard() {
-  card.classList.toggle('flipCard');
-}
-
-const card = document.getElementById('card-0');
-card.addEventListener('click', flipCard)
 
 const btn = document.getElementById('js-reveal');
+const btnRefreshIcon = document.getElementById('js-refresh');
+const btnRefresh = document.getElementById('do-over')
 
-document.addEventListener('load', (event) => {
-  console.log('page is fully loaded');
-});
 
-window.onload = function () {
+
+
+
+
+ window.onload  = function () {
   const cardData = messageBuilder();
-  console.log(cardData)
 
-  //document.getElementById('card-spread').innerHTML = fuction () {
-    let html = '';
-    let i = 0;
-
-
-    setInterval(function(){ 
+  btn.classList.toggle('visible');
+ 
+  btnRefreshIcon.onclick = function () {
+    location.reload()
+  }
+  
+  let i = 0;
+    setTimeout(function(){ 
+     
       while(i < 3){
-        // let cardId = 'card-' + i;
-        // let cardClass = 'back-'+i;
-        //console.log(cardClass)
-        document.getElementById('card-'+`${i}`).classList.toggle('flipCard');
-        document.getElementById('back-' + `${i}`).innerHTML = `<img src="${cardData[i].img}"/>`;
+        let card = 'card-'+`${i}`;
+        let back = 'back-'+`${i}`;
+        document.getElementById(card).classList.toggle('flipCard');
+        document.getElementById(back).innerHTML = `<img src="${cardData[i].img}"/>`;
         i++;
       }
-      clearInterval()
-      //document.getElementById(`js-card-0`).classList.add('flip-card-back')
-     }, 3000);
+    
+      clearInterval();
+     }, 2000);
 
-    //  setTimeout(function(){ 
-    //   document.getElementById(`js-card-1`).style.transform = 'rotateY(180deg)'
-    //  }, 2000);
 
-    //  setTimeout(function(){ 
-    //   document.getElementById(`js-card-2`).style.transform = 'rotateY(180deg)'
-    //  }, 3000);
+     setTimeout(function(){ 
+       let html = ''
+       let i = 0;
+      while(i < 3){
+        html += cardData[i].message;
+        i++;
+      }
+      btnRefresh.classList.toggle('visible');
+
+      document.getElementById('message').innerHTML = `<p class="grey" style="padding: 5%;">${html}</p>`
+      
+      clearInterval();
+     }, 8000);
   };
-// const appDiv = document.getElementById('card-spread').innerHTML = `
-//   <div class="spread">
-//     <div class="subtitles">
-//          <h1> A Personalized Tarot Reading:</h1>
-//          <hr>
-//       <h2>This Spread Is Just For You !</h2>
-//       <h4>Each card teaches you a specific lesson and a concept to meditate over</h4>
-//     </div>
-//     <div class="content">
-//       <p>${messageBuilder()}<p>
-//     </class>
-//   <div>
-// `;
+
