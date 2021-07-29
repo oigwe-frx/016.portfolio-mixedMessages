@@ -1,9 +1,3 @@
-// Import stylesheets
-import './style.css';
-
-
-
-
 // Tarot Cards
 
 const tarotInterpretations = [
