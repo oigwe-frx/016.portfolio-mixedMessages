@@ -46,6 +46,30 @@ h4 {
   opacity: 0.5;
 }
 
+.grey {
+  position: relative;
+  width: 100%;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*margin: 25px 0;*/
+  margin: 10px 0 25px 0;
+}
+
+.grey::before {
+  content: '';
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  filter: grayscale(100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  padding: 10%;
+}
+
 .greyBkgrnd {
   /*background-color: #323232;*/
   margin-bottom: 0;
@@ -61,7 +85,8 @@ h4 {
   margin-bottom: 25px;
 }
 .reveal:hover {
-  background-color: rgb(156, 133, 2);
+  background-color: #2e1531;
+  border: 0px;
 
 }
 
@@ -106,4 +131,12 @@ h4 {
 .back img {
   width: 100%;
   height: auto;
+}
+
+.visible{
+  display: none;
+}
+
+.front {
+  filter: grayscale(1)
 }
