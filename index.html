@@ -1,8 +1,10 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-  <title>Future You</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!--Styling-->
 
@@ -10,13 +12,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-
-  <!--Style: Stylesheet-->
-  <link href="style.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
   <!--style: Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!--Style: Stylesheet-->
+  <link rel="stylesheet" type=“text/css” href="./style.css" />
+
+  <title>Insight: Past, Preset, Future</title>
 </head>
 
 <body>
@@ -26,7 +32,7 @@
     <!--Header-->
     <header class="row">
       <section>
-        <h1>Reading</h1>
+        <h1> Your Reading</h1>
       </section>
       <section class="hero">
         <h4>
@@ -34,16 +40,21 @@
           through a specific spread (or layout) of Tarot cards.
         </h4>
       </section>
-      <hr />
     </header>
 
     <!--Reveal Button-->
     <section class="row">
+      <span class="text-center visible" id="do-over">Not Impressed?
+      <button type="button" class="btn btn-link"  id="js-refresh" data-bs-toggle="tooltip" data-bs-placement="right" title="Restart">
+        <span class="material-icons">
+          restart_alt
+          </span>
+      </button></span>
       <button class="btn btn-secondary reveal " type="button" id="js-reveal">Click to Reveal Your Insights</button>
     </section>
 
     <!--Cards-->
-    <section class="content row">
+    <section class="content row" id="message">
       <div class="col-1"></div>
       <div class="col-10">
         <div class="row" id="card-spread">
@@ -55,7 +66,7 @@
             </div>
             <div class="card-content" id="card-0">
               <div class="front">
-                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0" filter>
               </div>
               <div class="back" id="back-0">
               </div>
@@ -64,38 +75,40 @@
 
           <!--Preset Card-->
           <div class="card col main-container">
-          <div class="card-body">
-            <p class="card-text text-center">Present</p>
-          </div>
-          <div class="card-content" id="card-1">
-            <div class="front">
-              <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+            <div class="card-body">
+              <p class="card-text text-center">Present</p>
             </div>
-            <div class="back" id="back-1">
+            <div class="card-content" id="card-1">
+              <div class="front">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+              </div>
+              <div class="back" id="back-1">
+              </div>
             </div>
           </div>
-        </div>
 
           <!--Future Card-->
           <div class="card col main-container">
-          <div class="card-body">
-            <p class="card-text text-center">Past</p>
-          </div>
-          <div class="card-content" id="card-2">
-            <div class="front">
-              <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+            <div class="card-body">
+              <p class="card-text text-center">Past</p>
             </div>
-            <div class="back" id="back-2">
+            <div class="card-content" id="card-2">
+              <div class="front">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+              </div>
+              <div class="back" id="back-2">
+              </div>
             </div>
           </div>
-        </div>
-        
-        
+          <!--End of Cards-->
+
         </div>
       </div>
       <div class="col-1"></div>
   </div>
   </div>
+
+ 
 
   <!--Script: Custom-->
   <script src="./index.js"></script>
