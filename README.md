@@ -26,10 +26,10 @@ This project attempts to simulate a 3 card spread tarot card reading. The projec
 
 ### Card Layout
 
-![Screenshot of tarot project - card layout!](https://github.com/osita-igwe/16.Project-mixedMessages/blob/main/media/images/card-layout.png)
+![Screenshot of tarot project - card layout!](https://github.com/osita-igwe/16.Project-mixedMessages/blob/main/media/images/card_layout.png)
 
 ### Card Meaning
-![Screenshot of tarot project! - card meaning](https://github.com/osita-igwe/16.Project-mixedMessages/blob/main/media/images/card-meaning.png)
+![Screenshot of tarot project! - card meaning](https://github.com/osita-igwe/16.Project-mixedMessages/blob/main/media/images/card_meaning.png)
 
 
 ## Version 1
