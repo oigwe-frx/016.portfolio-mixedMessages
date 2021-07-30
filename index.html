@@ -21,7 +21,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
   <!--Style: Stylesheet-->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type=“text/css” href="./style.css" />
 
   <title>Insight: Past, Preset, Future</title>
 </head>
@@ -32,27 +32,25 @@
 
     <!--Header-->
     <header class="row">
-      <section>
-        <h1> Your Reading</h1>
-      </section>
       <section class="hero">
         <h4>
           Tarot reading is the practice of divining wisdom and guidance
           through a specific spread (or layout) of Tarot cards.
         </h4>
       </section>
+      <section>
+        <p class="text-center notice" id="subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
     </header>
 
-    <!--Reveal Button-->
     <section class="row">
-      <span class="text-center visible" id="do-over">Not Impressed?
+
+       <!--Restart Button-->
+      <span class="visible" id="do-over">Not Happy?
       <button type="button" class="btn btn-link"  id="js-refresh" data-bs-toggle="tooltip" data-bs-placement="right" title="Restart">
         <span class="material-icons">
           restart_alt
           </span>
       </button></span>
-      <button class="btn btn-secondary reveal " type="button" id="js-reveal">Click to Reveal Your Insights</button>
-    </section>
 
     <!--Cards-->
     <section class="content row" id="message">
@@ -106,8 +104,9 @@
         </div>
       </div>
       <div class="col-1"></div>
+    </section>
   </div>
-  </div>
+ 
 
  
 
