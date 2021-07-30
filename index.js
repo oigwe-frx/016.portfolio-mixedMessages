@@ -2407,15 +2407,31 @@ const messageBuilder = () => {
 
       cardData.push({
         img: card.img,
-        message: ` <b>Card ${i+1}:</b>
-        ${card.name.toUpperCase()}
-        <br/>
-        <b>Mood:</b> ${mood.toUpperCase()} <br/>
-        <b>Meaning:</b>
-         ${cardLeadin} ${card.meanings[mood][i].toLowerCase()}.
-        <br/>
-        <b>Ponder:</b>
-        ${card.fortune_telling[i] || card.fortune_telling[0]}. <br/><br/>`
+        message: ` 
+        <div class="col" style="border-left: 1px solid #161616; border-right: 1px solid #161616">
+          <div class="row">
+            <img src="${card.img}" alt="Tarot Card ${card.img}" style="width:80%; margin: 0 auto;"/>
+          </div>
+          <div class="row">
+            <div class="card text-center">
+              <div class="card-body">
+                <h6 class="card-title">
+                  <b>Card ${i+1}:</b>
+                  ${card.name.toUpperCase()}
+                </h6>
+                <hr/>
+                <p class="card-text">
+                  <b>Mood:</b> ${mood.toUpperCase()} <br/><br/>
+                  <b>Meaning:</b>
+                  ${cardLeadin} ${card.meanings[mood][i].toLowerCase()}.
+                  <br/><br/>
+                  <b>Guidance:</b>
+                  ${card.fortune_telling[i] || card.fortune_telling[0]}.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>`
       })
       i++;
     }
@@ -2427,16 +2443,15 @@ const messageBuilder = () => {
 //DOM Manipulation
 
 
-const btn = document.getElementById('js-reveal');
 const btnRefreshIcon = document.getElementById('js-refresh');
 const btnRefresh = document.getElementById('do-over')
+const subtitle = document.getElementById('subtitle');
 
 
 
 
 
-
- window.onload  = function () {
+ window.onload = function () {
   const cardData = messageBuilder();
 
   btn.classList.toggle('visible');
@@ -2459,6 +2474,7 @@ const btnRefresh = document.getElementById('do-over')
       clearInterval();
      }, 2000);
 
+     subtitle.classList.toggle('visible');
 
      setTimeout(function(){ 
        let html = ''
@@ -2469,9 +2485,17 @@ const btnRefresh = document.getElementById('do-over')
       }
       btnRefresh.classList.toggle('visible');
 
-      document.getElementById('message').innerHTML = `<p class="grey" style="padding: 5%;">${html}</p>`
+
+       document.getElementById('message').innerHTML = `<section class="grey row align-items-center" style="padding: 5%;">
+        <div class="col">
+          <div class="row">
+            <!--Card Data-->
+            ${html}
+          </div>
+        </div>
+        </section>`
       
       clearInterval();
-     }, 8000);
+     }, 6000);
   };
 
