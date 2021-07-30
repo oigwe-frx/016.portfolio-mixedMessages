@@ -15,11 +15,11 @@ h1 {
 h4 {
   position: relative;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 0.9;
   text-align: center;
-  margin: 30px;
-  padding: 0 30px;
+  margin: 20px;
+  padding: 0 20px;
   font-weight: normal;
 }
 
@@ -113,6 +113,7 @@ h4 {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  filter: grayscale(1)
 }
 
 .back {
@@ -137,6 +138,6 @@ h4 {
   display: none;
 }
 
-.front {
-  filter: grayscale(1)
+.notice {
+  font-size: 12px;
 }
