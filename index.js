@@ -2454,7 +2454,6 @@ const subtitle = document.getElementById('subtitle');
  window.onload = function () {
   const cardData = messageBuilder();
 
-  btn.classList.toggle('visible');
  
   btnRefreshIcon.onclick = function () {
     location.reload()
