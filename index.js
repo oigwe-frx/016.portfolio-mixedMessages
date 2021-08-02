@@ -32,7 +32,7 @@ const tarotInterpretations = [
     name: 'The Fool',
     rank: 0,
     suit: 'major',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/00-the-fool-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488830231',
+    img: './media/images/tarot-cards/fool.jpg',
   },
   {
     fortune_telling: [
