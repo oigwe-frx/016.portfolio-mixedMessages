@@ -61,7 +61,7 @@ const tarotInterpretations = [
     name: 'The Magician',
     rank: 1,
     suit: 'major',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/01-magician-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488831620',
+    img: './media/images/tarot-cards/magician.jpg',
   },
   {
     fortune_telling: [
