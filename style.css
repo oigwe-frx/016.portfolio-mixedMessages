@@ -27,12 +27,12 @@ h4 {
 
 .hero {
   position: relative;
-  /*width: 100%;*/
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   /*margin: 25px 0;*/
-  /*margin: 10px 0 25px 0;*/
+  margin: 10px 0 25px 0;
 }
 
 .hero::before {
@@ -78,7 +78,7 @@ h4 {
 }
 
 .card {
-  /*background-color: transparent;*/
+  background-color: transparent;
   padding: 0;
 }
 
@@ -124,7 +124,7 @@ h4 {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  filter: grayscale(1);
+  filter: hue-rotate(15deg);
   
 }
 
