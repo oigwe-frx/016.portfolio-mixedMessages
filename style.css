@@ -1,12 +1,12 @@
 body {
-  background-color: #010101;
+  background-color: #0d0d0d;
   color: #fff;
   font-family: 'Inter', sans-serif;
   margin: 50px 0;
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 37px;
   font-weight: bold;
   /*margin: 10px 0 ;*/
   /*padding: 0 30px;*/
@@ -15,23 +15,24 @@ h1 {
 h4 {
   position: relative;
   color: #ffffff;
-  font-size: 16px;
-  line-height: 0.9;
-  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
   margin: 20px;
   padding: 0 20px;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 
 .hero {
   position: relative;
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
   align-items: center;
   justify-content: center;
   /*margin: 25px 0;*/
-  margin: 10px 0 25px 0;
+  /*margin: 10px 0 25px 0;*/
 }
 
 .hero::before {
@@ -77,7 +78,7 @@ h4 {
 }
 
 .card {
-  background-color: transparent;
+  /*background-color: transparent;*/
   padding: 0;
 }
 
@@ -88,6 +89,16 @@ h4 {
   background-color: #2e1531;
   border: 0px;
 
+}
+
+.subtitle {
+  background-color: #c12555;
+}
+
+.subtitle p {
+  margin: 1% auto;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .main-container {
@@ -113,8 +124,11 @@ h4 {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  filter: grayscale(1)
+  filter: grayscale(1);
+  
 }
+
+
 
 .back {
   position: absolute;
