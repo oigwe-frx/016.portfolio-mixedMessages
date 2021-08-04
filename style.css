@@ -124,7 +124,7 @@ h4 {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  filter: hue-rotate(15deg);
+  filter: grayscale(1);
   
 }
 
