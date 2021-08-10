@@ -92,7 +92,7 @@ const tarotInterpretations = [
     name: 'The Papess/High Priestess',
     rank: 2,
     suit: 'major', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-high-priestess-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488834850', 
+    img: './media/images/tarot-cards/high-priestess.jpg', 
   },
   {
     fortune_telling: [
