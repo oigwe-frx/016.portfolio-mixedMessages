@@ -36,7 +36,7 @@
   <!--Visible Content-->
   <div class="container">
 
- <!--Header-->
+    <!--Header-->
     <header class="row">
       <section class="col-3">
         <h1>THE <br/> INSIGHT</h1>
@@ -55,7 +55,7 @@
 
     <section class="row">
 
-       <!--Restart Button-->
+      <!--Restart Button-->
       <span class="visible" id="do-over">Not Happy?
       <button type="button" class="btn btn-link"  id="js-refresh" data-bs-toggle="tooltip" data-bs-placement="right" title="Restart">
         <span class="material-icons">
@@ -63,63 +63,61 @@
           </span>
       </button></span>
 
-    <!--Cards-->
-    <section class="content row" id="message">
-      <div class="col-1"></div>
-      <div class="col-10">
-        <div class="row" id="card-spread">
+      <!--Cards-->
+      <section class="content row" id="message">
+        <div class="col">
+          <div class="row" id="card-spread">
 
-          <!--Past Card-->
-          <div class="card col main-container">
-            <div class="card-body">
-              <p class="card-text text-center">Past</p>
-            </div>
-            <div class="card-content" id="card-0">
-              <div class="front">
-                <img src="./media/images/tarot-cards/front_face.png" class="card-img"  alt="Tarot Card Back" id="js-card-0">
+            <!--Past Card-->
+            <div class="card col main-container">
+              <div class="card-body">
+                <p class="card-text text-center">Past</p>
               </div>
-              <div class="back" id="back-0">
+              <div class="card-content" id="card-0">
+                <div class="front">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img "  alt="..." id="js-card-0" filter>
+                </div>
+                <div class="back" id="back-0">
+                </div>
               </div>
             </div>
+
+            <!--Preset Card-->
+            <div class="card col main-container">
+              <div class="card-body">
+                <p class="card-text text-center">Present</p>
+              </div>
+              <div class="card-content" id="card-1">
+                <div class="front">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+                </div>
+                <div class="back" id="back-1">
+                </div>
+              </div>
+            </div>
+
+            <!--Future Card-->
+            <div class="card col main-container">
+              <div class="card-body">
+                <p class="card-text text-center">Past</p>
+              </div>
+              <div class="card-content" id="card-2">
+                <div class="front">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+                </div>
+                <div class="back" id="back-2">
+                </div>
+              </div>
+            </div>
+            <!--End of Cards-->
+
           </div>
-
-          <!--Preset Card-->
-          <div class="card col main-container">
-            <div class="card-body">
-              <p class="card-text text-center">Present</p>
-            </div>
-            <div class="card-content" id="card-1">
-              <div class="front">
-                <img src="./media/images/tarot-cards/front_face.png" class="card-img"  alt="Tarot Card Back" id="js-card-0" filter>
-              </div>
-              <div class="back" id="back-1">
-              </div>
-            </div>
-          </div>
-
-          <!--Future Card-->
-          <div class="card col main-container">
-            <div class="card-body">
-              <p class="card-text text-center">Past</p>
-            </div>
-            <div class="card-content" id="card-2">
-              <div class="front">
-                <img src="./media/images/tarot-cards/front_face.png" class="card-img"  alt="Tarot Card Back" id="js-card-0" filter>
-              </div>
-              <div class="back" id="back-2">
-              </div>
-            </div>
-          </div>
-          <!--End of Cards-->
-
         </div>
-      </div>
-      <div class="col-1"></div>
-    </section>
+      </section>
   </div>
- 
 
- 
+
+
 
   <!--Script: Custom-->
   <script src="./index.js"></script>
