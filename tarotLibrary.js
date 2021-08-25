@@ -33,7 +33,7 @@ const tarotInterpretations = [
     name: 'The Fool',
     rank: 0,
     suit: 'major',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/00-the-fool-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488830231',
+    img: './media/images/tarot-cards/fool.jpg',
   },
   {
     fortune_telling: [
@@ -62,7 +62,7 @@ const tarotInterpretations = [
     name: 'The Magician',
     rank: 1,
     suit: 'major',
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/01-magician-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488831620',
+    img: './media/images/tarot-cards/magician.jpg',
   },
   {
     fortune_telling: [
@@ -93,7 +93,7 @@ const tarotInterpretations = [
     name: 'The Papess/High Priestess',
     rank: 2,
     suit: 'major', 
-    img: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-high-priestess-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488834850', 
+    img: './media/images/tarot-cards/high-priestess.jpg', 
   },
   {
     fortune_telling: [
@@ -2356,6 +2356,9 @@ const tarotInterpretations = [
 ];
 
 
+
+      
+    
 // Card Selection
 const cardSelection = (array) => {
   const cardHolder = [];
