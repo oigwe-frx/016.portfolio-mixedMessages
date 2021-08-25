@@ -12,7 +12,7 @@ h1 {
   /*padding: 0 30px;*/
 }
 
-h4 {
+h2 {
   position: relative;
   color: #ffffff;
   font-size: 13px;
@@ -24,62 +24,10 @@ h4 {
   text-transform: uppercase;
 }
 
-
-.hero {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*margin: 25px 0;*/
-  margin: 10px 0 25px 0;
-}
-
-.hero::before {
-  content: '';
-  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
-  background-size: cover;
+.hidden-header {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-
-.grey {
-  position: relative;
-  width: 100%;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
-  /*margin: 25px 0;*/
-  margin: 10px 0 25px 0;
-}
-
-.grey::before {
-  content: '';
-  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
-  filter: grayscale(100%);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.1;
-  padding: 10%;
-}
-
-.greyBkgrnd {
-  /*background-color: #323232;*/
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.card {
-  background-color: transparent;
-  padding: 0;
+  top: -9999px;
+  left: -9999px;
 }
 
 .reveal {
@@ -88,7 +36,6 @@ h4 {
 .reveal:hover {
   background-color: #2e1531;
   border: 0px;
-
 }
 
 .subtitle {
@@ -99,11 +46,14 @@ h4 {
   margin: 1% auto;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 12px;
+  text-align: center;
 }
 
 .main-container {
   /*position: absolute;*/
   background: none;
+  padding: 0;
   /*width: 208px;
   height: 400px;*/
   /*top: 50%;
@@ -119,18 +69,11 @@ h4 {
   transition: all 0.8s ease;
 }
 
-.front {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+.card-back {
   filter: grayscale(1);
-  
 }
 
-
-
-.back {
+.card-face {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -138,20 +81,19 @@ h4 {
   transform: rotateY(180deg);
 }
 
-
 .flipCard {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 
-.back img {
+img {
   width: 100%;
   height: auto;
 }
 
-.visible{
+.visible {
   display: none;
 }
 
-.notice {
-  font-size: 12px;
+.card-text {
+  text-align: center;
 }
