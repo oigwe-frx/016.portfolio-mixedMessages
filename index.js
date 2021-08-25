@@ -1,4 +1,4 @@
-import messageBuilder from './tarotLibrary.js';
+import {messageBuilder} from './tarotLibrary.js';
 
 
 //DOM Manipulation
