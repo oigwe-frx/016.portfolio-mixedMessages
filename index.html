@@ -42,18 +42,20 @@
         <h1>THE <br/> INSIGHT</h1>
       </section>
       <section class="col-9">
-        <h4>
+        <h2>
           Devine insight and guidance
           through the cards.
-        </h4>
+        </h2>
       </section>
     </header>
 
     <section class="row subtitle">
-      <p class="text-center notice" id="subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
+      <h3 class="hidden-header">Subtitle</h3>
+      <p id="js-subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
     </section>
 
     <section class="row">
+      <h3 class="hidden-header">Refresh Button</h3>
 
       <!--Restart Button-->
       <span class="visible" id="do-over">Not Happy?
@@ -64,34 +66,36 @@
       </button></span>
 
       <!--Cards-->
-      <section class="content row" id="message">
+      <section class="row" id="message">
+        <h3 class="hidden-header">Card Layout</h3>
+
         <div class="col">
           <div class="row" id="card-spread">
 
             <!--Past Card-->
-            <div class="card col main-container">
+            <div class="col main-container">
               <div class="card-body">
-                <p class="card-text text-center">Past</p>
+                <p class="card-text">Past</p>
               </div>
-              <div class="card-content" id="card-0">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img "  alt="..." id="js-card-0" filter>
+              <div class="card-content" id="js-card-0">
+                <div class="card-back">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png"  alt="Past Tarot Card" filter>
                 </div>
-                <div class="back" id="back-0">
+                <div class="card-face" id="js-cardFace-0">
                 </div>
               </div>
             </div>
 
-            <!--Preset Card-->
+            <!--Present Card-->
             <div class="card col main-container">
               <div class="card-body">
                 <p class="card-text text-center">Present</p>
               </div>
-              <div class="card-content" id="card-1">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+              <div class="card-content" id="js-card-1">
+                <div class="card-back">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png"  alt="Present Tarot Card">
                 </div>
-                <div class="back" id="back-1">
+                <div class="card-face" id="js-cardFace-1">
                 </div>
               </div>
             </div>
@@ -101,11 +105,11 @@
               <div class="card-body">
                 <p class="card-text text-center">Past</p>
               </div>
-              <div class="card-content" id="card-2">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
+              <div class="card-content" id="js-card-2">
+                <div class="card-back">
+                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="...">
                 </div>
-                <div class="back" id="back-2">
+                <div class="card-face" id="js-cardFace-2">
                 </div>
               </div>
             </div>
