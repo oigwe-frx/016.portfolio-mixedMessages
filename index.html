@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <!--Styling-->
-
   <!--Style: Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
   <!--style: Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
   <!--Style: Stylesheet-->
   <link rel="stylesheet" href="./style.css" />
   
@@ -28,35 +22,27 @@
   
   <!--Favicon-->
   <link rel="shortcut icon" type="image/jpg" href="./media/favicon.ico"/>
-
   
 </head>
-
 <body>
   <!--Visible Content-->
   <div class="container">
-
     <!--Header-->
     <header class="row">
       <section class="col-3">
         <h1>THE <br/> INSIGHT</h1>
       </section>
       <section class="col-9">
-        <h2>
+        <h4>
           Devine insight and guidance
           through the cards.
-        </h2>
+        </h4>
       </section>
     </header>
-
     <section class="row subtitle">
-      <h3 class="hidden-header">Subtitle</h3>
-      <p id="js-subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
+      <p class="text-center notice" id="subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
     </section>
-
     <section class="row">
-      <h3 class="hidden-header">Refresh Button</h3>
-
       <!--Restart Button-->
       <span class="visible" id="do-over">Not Happy?
       <button type="button" class="btn btn-link"  id="js-refresh" data-bs-toggle="tooltip" data-bs-placement="right" title="Restart">
@@ -64,10 +50,8 @@
           restart_alt
           </span>
       </button></span>
-
       <!--Cards-->
-      
-<section class="content row" id="message">
+      <section class="content row" id="message">
         <div class="col">
           <div class="row" id="card-spread">
             <!--Past Card-->
@@ -116,7 +100,6 @@
   </div>
 
 
-
   <!--Script: Custom-->
   <script type="module" src="./index.js"></script>
 
@@ -125,5 +108,4 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
 </body>
-
 </html>
