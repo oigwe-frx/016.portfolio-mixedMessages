@@ -2393,7 +2393,7 @@ const messageMood = () => {
 
 
 // Message Composition
-export const messageBuilder = () => {
+export default const messageBuilder = () => {
   const selectedCards = cardSelection(tarotInterpretations);
 
 
