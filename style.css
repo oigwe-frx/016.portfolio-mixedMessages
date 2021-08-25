@@ -4,15 +4,13 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 50px 0;
 }
-
 h1 {
   font-size: 37px;
   font-weight: bold;
   /*margin: 10px 0 ;*/
   /*padding: 0 30px;*/
 }
-
-h2 {
+h4 {
   position: relative;
   color: #ffffff;
   font-size: 13px;
@@ -23,13 +21,57 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
 }
-
-.hidden-header {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin: 25px 0;*/
+  margin: 10px 0 25px 0;
 }
-
+.hero::before {
+  content: '';
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.grey {
+  position: relative;
+  width: 100%;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*margin: 25px 0;*/
+  margin: 10px 0 25px 0;
+}
+.grey::before {
+  content: '';
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  filter: grayscale(100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  padding: 10%;
+}
+.greyBkgrnd {
+  /*background-color: #323232;*/
+  margin-bottom: 0;
+  padding: 0;
+}
+.card {
+  background-color: transparent;
+  padding: 0;
+}
 .reveal {
   margin-bottom: 25px;
 }
@@ -37,30 +79,14 @@ h2 {
   background-color: #2e1531;
   border: 0px;
 }
-
 .subtitle {
   background-color: #c12555;
 }
-
 .subtitle p {
   margin: 1% auto;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 12px;
-  text-align: center;
 }
-
-.main-container {
-  /*position: absolute;*/
-  background: none;
-  padding: 0;
-  /*width: 208px;
-  height: 400px;*/
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-}
-
 .main-container {
   /*position: absolute;*/
   background: none;
@@ -84,7 +110,8 @@ h2 {
   backface-visibility: hidden;
   filter: grayscale(1);
 
-} 
+}
+
 .back {
   position: absolute;
   width: 100%;
