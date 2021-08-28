@@ -35,6 +35,8 @@ window.onload = function () {
         while (i < 3) {
           let card = 'js-card-' + `${i}`;
           let cardFace = 'js-card-face-' + `${i}`;
+          let cardBack = 'js-card-back-' + `${i}`
+
 
           document.getElementById(cardFace).innerHTML = `<img src="${cardData[i].img}"/>`;
           document.getElementById(card).classList.toggle('flip-card');
@@ -75,7 +77,6 @@ window.onload = function () {
         let i = 0;
 
         while (i < 3) {
-          let cardBack = 'js-card-back-' + `${i}`
 
           html += cardData[i].message;
           console.log(html)
