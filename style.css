@@ -61,9 +61,10 @@ h2 {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: all 1s ease;
+  transition: all 0.8s ease;
   width: 100%;
   }
+
 .card-face{
   backface-visibility: hidden;
   height: auto;
@@ -71,18 +72,17 @@ h2 {
   transform: rotateY(180deg);
   width: 100%;
 }
+
 .card-face img {
   height: auto;
   width: 90%;
 }
 .flip-card {
- transform: rotateY(180deg);
- -webkit-transform: rotateY(180deg);
- -moz-transform: rotateY(180deg);
- -o-transform: rotateY(180deg);
+  transform: rotateY(180deg)
 }
 
 
+/*-- TURNED CARD  --*/
 
 /*-- TURNED CARD BACKDROP --*/
 
@@ -115,3 +115,14 @@ h6 {
 }
 
 
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  body {
+    min-width: 320px;
+  }
+  .card-face, .flip-card {
+    transform: none;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+}
