@@ -61,7 +61,7 @@ h2 {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  transition: all 1s ease;
   width: 100%;
   }
 .card-face{
