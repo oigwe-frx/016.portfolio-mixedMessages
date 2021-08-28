@@ -38,6 +38,8 @@ window.onload = function () {
 
           document.getElementById(cardFace).innerHTML = `<img src="${cardData[i].img}"/>`;
           document.getElementById(card).classList.toggle('flip-card');
+          document.getElementById(cardBack).classList.toggle('visible');
+
           i++;
         }
 
@@ -74,7 +76,6 @@ window.onload = function () {
 
         while (i < 3) {
           let cardBack = 'js-card-back-' + `${i}`
-          document.getElementById(cardBack).classList.toggle('visible');
 
           html += cardData[i].message;
           console.log(html)
