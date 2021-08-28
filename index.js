@@ -35,13 +35,10 @@ window.onload = function () {
         while (i < 3) {
           let card = 'js-card-' + `${i}`;
           let cardFace = 'js-card-face-' + `${i}`;
-          let cardBack = 'js-card-back-' + `${i}`
-
 
           document.getElementById(cardFace).innerHTML = `<img src="${cardData[i].img}"/>`;
+          document.getElementById(cardFace).classList.toggle('visible')
           document.getElementById(card).classList.toggle('flip-card');
-          document.getElementById(cardBack).classList.toggle('visible');
-
           i++;
         }
 
@@ -77,6 +74,8 @@ window.onload = function () {
         let i = 0;
 
         while (i < 3) {
+          let cardBack = 'js-card-back-' + `${i}`
+          document.getElementById(cardBack).classList.toggle('visible');
 
           html += cardData[i].message;
           console.log(html)
