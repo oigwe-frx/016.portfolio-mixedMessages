@@ -37,7 +37,7 @@ window.onload = function () {
           let cardFace = 'js-card-face-' + `${i}`;
 
           document.getElementById(cardFace).innerHTML = `<img src="${cardData[i].img}"/>`;
-          document.getElementById(card).classList.toggle('flip-card');
+          document.getElementById(card).classList.toggle('.is-flipped');
           document.getElementById(cardFace).classList.toggle('visible');
 
           i++;
