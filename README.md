@@ -18,9 +18,11 @@ In this project, you’ll build a message generator program that outputs a new, 
 
 ## Code Explanation
 
-This project attempts to simulate a 3 card spread tarot card reading. The project begins with the creation of an 78 element array (<b>tarotInterpretations</b>). Each element in the array is an object which holds the data of a tarot card. Credit to [@dariusk](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) for providing the original tarot card objects. The current objects, used in this project, were modified to include card images. 
+This project attempts to simulate a 3 card spread tarot card reading. The project begins with the creation of a JSON file. Each element in the JSON is an object which holds the data of a tarot card. Credit to [@dariusk](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) for providing the original tarot card objects. The current objects, used in this project, were modified to include card images. 
 
-Through a series of functions, 3 tarot card objects are randomly selected from the array, and 3 moods are also randomly selected. The moods will determine the meaning of the selected cards. A final function (<b>messageBuilder</b>) takes the data previously collected and through string interpolation composes a message that will be presented to the user. The user can refresh the page to receive a new reading
+Through a series of functions, 3 tarot card objects are randomly selected from the data retrieved from the JSON, and 3 moods are also randomly selected. The moods will determine the meaning of the selected cards. A final function (<b>messageBuilder</b>) takes the data previously collected and through string interpolation composes a message that will be presented to the user. The user can refresh the page to receive a new reading
+
+***Note: The project must be run on a server***
 
 ## Current Version
 
