@@ -58,6 +58,9 @@ window.onload = function () {
         let i = 0;
         
         while (i < 3) {
+          let cardBack = 'js-card-back-' + `${i}`
+          document.getElementById(cardBack).classList.toggle('visible');
+
           html += cardData[i].message;
           i++;
         }
