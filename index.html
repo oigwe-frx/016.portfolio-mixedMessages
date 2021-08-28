@@ -1,102 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <!--Styling-->
   <!--Style: Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--style: Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!--Style: Stylesheet-->
   <link rel="stylesheet" href="./style.css" />
-  
+
   <!--Title-->
   <title>Insight: Past, Preset, Future</title>
-  
+
   <!--Favicon-->
-  <link rel="shortcut icon" type="image/jpg" href="./media/favicon.ico"/>
-  
+  <link rel="shortcut icon" type="image/jpg" href="./media/favicon.ico" />
+
 </head>
+
 <body>
   <!--Visible Content-->
   <div class="container">
+
     <!--Header-->
     <header class="row">
       <section class="col-3">
-        <h1>THE <br/> INSIGHT</h1>
+        <h1>THE <br /> INSIGHT</h1>
       </section>
       <section class="col-9">
-        <h4>
+        <h2>
           Devine insight and guidance
           through the cards.
-        </h4>
+        </h2>
       </section>
     </header>
+
+    <!--Subtitle-->
     <section class="row subtitle">
-      <p class="text-center notice" id="subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
+      <p id="js-subtitle">Patience ... Your Cards Will Be Revealed In Time</p>
     </section>
+
+    <!--Restart Button-->
     <section class="row">
-      <!--Restart Button-->
-      <span class="visible" id="do-over">Not Happy?
-      <button type="button" class="btn btn-link"  id="js-refresh" data-bs-toggle="tooltip" data-bs-placement="right" title="Restart">
-        <span class="material-icons">
-          restart_alt
+      <span class="visible" id="js-refresh">Not Happy?
+        <button type="button" class="btn btn-link" id="js-refresh-icon" data-bs-toggle="tooltip" data-bs-placement="right"
+          title="Restart">
+          <span class="material-icons">
+            restart_alt
           </span>
-      </button></span>
-      <!--Cards-->
-      <section class="content row" id="message">
-        <div class="col">
-          <div class="row" id="card-spread">
-            <!--Past Card-->
-            <div class="card col main-container">
-              <div class="card-body">
-                <p class="card-text text-center">Past</p>
+        </button>
+      </span>
+    </section>
+
+    <!--Cards-->
+    <section class="row content" id="js-message">
+      <div class="col">
+        <div class="row">
+
+          <!--Past Card-->
+          <div class="col card">
+            <div class="card-body">
+              <p class="card-text text-center">Past</p>
+            </div>
+            <div class="card-content" id="js-card-0">
+              <div class="card-back">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img "
+                  alt="Past Tarot Card" filter>
               </div>
-              <div class="card-content" id="card-0">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img "  alt="..." id="js-card-0" filter>
-                </div>
-                <div class="back" id="back-0">
-                </div>
+              <div class="card-face" id="js-card-face-0">
               </div>
             </div>
-            <!--Preset Card-->
-            <div class="card col main-container">
-              <div class="card-body">
-                <p class="card-text text-center">Present</p>
-              </div>
-              <div class="card-content" id="card-1">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
-                </div>
-                <div class="back" id="back-1">
-                </div>
-              </div>
-            </div>
-            <!--Future Card-->
-            <div class="card col main-container">
-              <div class="card-body">
-                <p class="card-text text-center">Past</p>
-              </div>
-              <div class="card-content" id="card-2">
-                <div class="front">
-                  <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"  alt="..." id="js-card-0">
-                </div>
-                <div class="back" id="back-2">
-                </div>
-              </div>
-            </div>
-            <!--End of Cards-->
           </div>
+
+          <!--Present Card-->
+          <div class="col card">
+            <div class="card-body">
+              <p class="card-text text-center">Present</p>
+            </div>
+            <div class="card-content" id="js-card-1">
+              <div class="card-back">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"
+                  alt="Present Tarot Card">
+              </div>
+              <div class="card-face" id="js-card-face-1">
+              </div>
+            </div>
+          </div>
+
+          <!--Future Card-->
+          <div class="col card">
+            <div class="card-body">
+              <p class="card-text text-center">Future</p>
+            </div>
+            <div class="card-content" id="js-card-2">
+              <div class="card-back">
+                <img src="https://conethgames.s3.amazonaws.com/tarot-cards/Llods-Card-Back.png" class="card-img"
+                  alt="Future Tarot Card">
+              </div>
+              <div class="card-face" id="js-card-face-2">
+              </div>
+            </div>
+          </div>
+
+          <!--End of Cards-->
         </div>
-      </section>
+      </div>
+    </section>
   </div>
 
 
@@ -106,6 +123,7 @@
   <!-- Script: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
+
 </html>
