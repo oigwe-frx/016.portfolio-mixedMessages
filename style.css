@@ -41,6 +41,12 @@ h2 {
   }
 
 
+/*-- CARD CONTAIINER --*/
+.content {
+  perspective: 600px;
+}
+
+
 /*-- CARDS --*/
 .card {
   background-color: transparent;
