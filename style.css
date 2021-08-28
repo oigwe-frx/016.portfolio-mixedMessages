@@ -1,134 +1,117 @@
 body {
-  background-color: #0d0d0d;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  margin: 50px 0;
+  background-color:#0d0d0d;
+  color:#fff;
+  font-family:Inter, sans-serif;
+  margin:50px 0
+  }
+
+/*-- GENERAL PROPERTIES --*/
+.visible{
+  display: none;
 }
+
+/*-- HEADINGS  --*/
 h1 {
   font-size: 37px;
   font-weight: bold;
-  /*margin: 10px 0 ;*/
-  /*padding: 0 30px;*/
 }
-h4 {
-  position: relative;
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 1.5;
-  text-align: right;
-  margin: 20px;
-  padding: 0 20px;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-.hero {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*margin: 25px 0;*/
-  margin: 10px 0 25px 0;
-}
-.hero::before {
-  content: '';
-  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-.grey {
-  position: relative;
-  width: 100%;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
-  /*margin: 25px 0;*/
-  margin: 10px 0 25px 0;
-}
-.grey::before {
-  content: '';
-  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
-  filter: grayscale(100%);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.1;
-  padding: 10%;
-}
-.greyBkgrnd {
-  /*background-color: #323232;*/
-  margin-bottom: 0;
-  padding: 0;
-}
-.card {
-  background-color: transparent;
-  padding: 0;
-}
-.reveal {
-  margin-bottom: 25px;
-}
-.reveal:hover {
-  background-color: #2e1531;
-  border: 0px;
-}
+h2 {
+  color:#fff;
+  font-size:13px;
+  font-weight:400;
+  line-height:1.5;
+  margin:20px;
+  padding:0 20px;
+  position:relative;
+  text-align:right;
+  text-transform:uppercase
+  }
+
+
+/*-- SUBTITLE --*/
 .subtitle {
   background-color: #c12555;
 }
 .subtitle p {
-  margin: 1% auto;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-size:12px;
+  font-weight:700;
+  margin:1% auto;
+  text-align:center;
+  text-transform:uppercase
+  }
+
+
+/*-- CARDS --*/
+.card {
+  background-color: transparent;
+  padding: 0;
 }
-.main-container {
-  /*position: absolute;*/
-  background: none;
-  /*width: 208px;
-  height: 400px;*/
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-}
-.card-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: all 0.8s ease;
-}
-.front {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.card-back {
   backface-visibility: hidden;
   filter: grayscale(1);
-
-}
-
-.back {
+  height: auto;
   position: absolute;
   width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
 }
-.flipCard {
+.card-border {
+  border-left: 1px solid #161616;
+  border-right: 1px solid #161616;
+}
+.card-content {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  width: 100%;
+  }
+
+.card-face{
+  backface-visibility: hidden;
+  height: auto;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 100%;
+}
+
+.card-face img {
+  height: auto;
+  width: 90%;
+}
+.flip-card {
   transform: rotateY(180deg)
 }
-.back img {
+
+
+/*-- TURNED CARD  --*/
+
+/*-- TURNED CARD BACKDROP --*/
+
+.grey {
+  align-items: center;
+  margin: 10px 0 25px 0;
+  padding: 5%;
+  position: relative;
   width: 100%;
-  height: auto;
 }
-.visible{
-  display: none;
+.grey::before {
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  background-size: cover;
+  content: '';
+  filter: grayscale(100%);
+  opacity: 0.1;
+  padding: 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
-.notice {
-  font-size: 12px;
+
+/* -- TEXT --*/
+
+h6 {
+  border-bottom: 1px solid #c12555;
+  padding-bottom: 10px;
 }
+
+
