@@ -64,15 +64,16 @@ h2 {
   transition: all 0.8s ease;
   width: 100%;
   }
-
 .card-face{
   backface-visibility: hidden;
   height: auto;
   position: absolute;
   transform: rotateY(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   width: 100%;
 }
-
 .card-face img {
   height: auto;
   width: 90%;
