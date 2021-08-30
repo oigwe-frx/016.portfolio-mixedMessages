@@ -1,139 +1,150 @@
-body {
-  background-color:#0d0d0d;
-  color:#fff;
-  font-family:Inter, sans-serif;
-  margin:50px 0
-  }
+/*UNIVERSAL STYLES*/
 
-/*-- GENERAL PROPERTIES --*/
-.visible{
-  display: none;
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f1ed35;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow: scroll;
+  width: 100%;
 }
 
-/*-- HEADINGS  --*/
+
+
+/*-- UNIVERSAL: HEADINGS --*/
 h1 {
-  font-size: 37px;
-  font-weight: bold;
+  display: inline-block;
+  font-size: 7rem;
+  font-weight: 700;
+  text-align: center;
 }
 h2 {
-  color:#fff;
-  font-size:13px;
-  font-weight:400;
-  line-height:1.5;
-  margin:20px;
-  padding:0 20px;
-  position:relative;
-  text-align:right;
-  text-transform:uppercase
-  }
-
-
-/*-- SUBTITLE --*/
-.subtitle {
-  background-color: #c12555;
+  color: #fe3333;
+  display: inline-block;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 5rem;
+  text-decoration: underline;
 }
-.subtitle p {
-  font-size:12px;
-  font-weight:700;
-  margin:1% auto;
-  text-align:center;
-  text-transform:uppercase
-  }
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
 
 
-/*-- CARD CONTAIINER --*/
+/*-- UNIVERSAL: CONTAINER --*/
 .content {
-  perspective: 600px;
+  border: solid black .75rem;
+  height: fit-content;
+  margin: 2rem 1rem;
+  padding: 0 1.5rem;
 }
 
-
-/*-- CARDS --*/
-.card {
-  background-color: transparent;
-  padding: 0;
-}
-.card-back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  filter: grayscale(1);
-  height: auto;
-  position: absolute;
-  width: 100%;
-}
-.card-border {
-  border-left: 1px solid #161616;
-  border-right: 1px solid #161616;
-}
-.card-content {
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: all 2s ease;
-  width: 100%;
-  }
-
-.card-face{
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  height: auto;
-  position: absolute;
-  transform: rotateY(180deg);
-  width: 100%;
-}
-
-.card-face img {
-  height: auto;
+.outside-border {
+  background-color: white;
+  height: fit-content;
+  margin: 2rem 1rem;
+  padding: .5rem;
+  transform: rotate(0.01turn);
   width: 90%;
 }
-.is-flipped {
-  transform: rotateY(180deg)
+
+#top {
+  border-bottom: 0.1rem solid grey;  
+  text-align: center;
 }
 
 
-/*-- TURNED CARD  --*/
 
-/*-- TURNED CARD BACKDROP --*/
+/*MAD LIB FORM*/
 
-.grey {
-  align-items: center;
-  margin: 10px 0 25px 0;
-  padding: 5%;
-  position: relative;
-  width: 100%;
+ol li {
+  font-weight: bold;
+  margin-bottom: 5%;
+  margin-left: 2.5%;
 }
-.grey::before {
-  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
-  background-size: cover;
-  content: '';
-  filter: grayscale(100%);
-  opacity: 0.1;
-  padding: 10%;
+
+li label, li span {
+  font-size: 1.8rem;
+}
+
+img {
+  height: 40rem;
+  margin-bottom: 0;
   position: absolute;
-  top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  transform: rotate(-0.035turn);
 }
 
-/* -- TEXT --*/
+input[type='text'],
+input[type='number'] {
+  border: .1rem solid #cccccc;
+  color: #fe3333;
+  border-radius: .5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 1rem;
+  min-height: 2.5rem;
+  text-transform: uppercase;
+  width: clamp(20%, 40%, 60%);
+}
 
-h6 {
-  border-bottom: 1px solid #c12555;
-  padding-bottom: 10px;
+input[type='radio'] {
+  margin-left: 1.2rem;
+}
+
+input[type='submit'] {
+  background-color: #000;
+  border-radius: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  min-height: 2.5rem;
+  margin: 1rem auto;
+}
+
+input[type='submit']:hover {
+  background-color: #fe3333;
+  cursor: pointer;
+  margin-left: 2.5%;
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
-  body {
-    min-width: 320px;
-  }
-  .card-face, .isflipped {
-    transform: none;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-  }
-  .card-face, .card-back {
-    -webkit-backface-visibility: hidden;
-  }
+/* STORY (ORIGINAL & COMPLETED LIB) */
+
+a {
+  color: black;
+  font-weight: bold;
 }
+a:hover {
+  color: #fe3333;
+}
+article {
+  padding: 0 10%;
+}
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.links {
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.word {
+  color: #fe3333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+
+
+/*@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  img {
+    display: none;
+  }
+}*/
