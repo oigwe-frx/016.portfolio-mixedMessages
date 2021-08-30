@@ -81,17 +81,7 @@ h2 {
   width: 90%;
 }
 
-.card-face, .card-back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
 
-.card-face, .isflipped {
-  transform: rotateY(180deg)
-  -webkit-transform: rotateY(180deg);
-  /*-moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);*/
-  }
 
 
 /*-- TURNED CARD  --*/
@@ -131,6 +121,15 @@ h6 {
   body {
     min-width: 320px;
   }
-
+  .card-face, .card-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .card-face, .isflipped {
+    transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg);
+    /*-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);*/
+  }
 
 }
