@@ -53,8 +53,6 @@ h2 {
   padding: 0;
 }
 .card-back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
   filter: grayscale(1);
   height: auto;
   position: absolute;
@@ -73,11 +71,8 @@ h2 {
   }
 
 .card-face{
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
   height: auto;
   position: absolute;
-  transform: rotateY(180deg);
   width: 100%;
 }
 
@@ -85,9 +80,18 @@ h2 {
   height: auto;
   width: 90%;
 }
-.is-flipped {
-  transform: rotateY(180deg)
+
+.card-face, .card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
+
+.card-face, .isflipped {
+  transform: rotateY(180deg)
+  -webkit-transform: rotateY(180deg);
+  /*-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);*/
+  }
 
 
 /*-- TURNED CARD  --*/
@@ -127,13 +131,6 @@ h6 {
   body {
     min-width: 320px;
   }
-  .card-face, .isflipped {
-    transform: none;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-  }
-  .card-face, .card-back {
-    -webkit-backface-visibility: hidden;
-  }
+
+
 }
