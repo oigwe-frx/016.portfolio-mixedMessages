@@ -245,7 +245,7 @@
             "name": "The Lovers",
             "rank": 6,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/06-lovers-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488899974"
+            "img": "./media/images/tarot-cards/lovers.jpg"
         },
         {
             "fortune_telling": [
