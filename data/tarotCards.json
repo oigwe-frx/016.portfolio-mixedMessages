@@ -1752,7 +1752,7 @@
             "name": "ace of pentacles",
             "rank": 1,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/ace-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491866370"
+            "img": "./media/images/tarot-cards/ace-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1786,7 +1786,7 @@
             "name": "two of pentacles",
             "rank": 2,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/two-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491878375"
+            "img": "./media/images/tarot-cards/two-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1821,7 +1821,7 @@
             "name": "three of pentacles",
             "rank": 3,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/three-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491960925"
+            "img": "./media/images/tarot-cards/three-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1855,7 +1855,7 @@
             "name": "four of pentacles",
             "rank": 4,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/four-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491961901"
+            "img": "./media/images/tarot-cards/four-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1890,7 +1890,7 @@
             "name": "five of pentacles",
             "rank": 5,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/five-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491962947"
+            "img": "./media/images/tarot-cards/five-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1925,7 +1925,7 @@
             "name": "six of pentacles",
             "rank": 6,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/six-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491964733"
+            "img": "./media/images/tarot-cards/six-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1959,7 +1959,7 @@
             "name": "seven of pentacles",
             "rank": 7,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/seven-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491966120"
+            "img": "./media/images/tarot-cards/seven-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -1995,7 +1995,7 @@
             "name": "eight of pentacles",
             "rank": 8,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/eight-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491967066"
+            "img": "./media/images/tarot-cards/eight-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2027,7 +2027,7 @@
             "name": "nine of pentacles",
             "rank": 9,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/nine-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492026038"
+            "img": "./media/images/tarot-cards/nine-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2060,7 +2060,7 @@
             "name": "ten of pentacles",
             "rank": 10,
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/ten-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1491960886"
+            "img": "./media/images/tarot-cards/ten-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2094,7 +2094,7 @@
             "name": "page of pentacles",
             "rank": "page",
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492138610"
+            "img": "./media/images/tarot-cards/page-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2131,7 +2131,7 @@
             "name": "knight of pentacles",
             "rank": "knight",
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492141191"
+            "img": "./media/images/tarot-cards/knight-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2164,7 +2164,7 @@
             "name": "queen of pentacles",
             "rank": "queen",
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492141216"
+            "img": "./media/images/tarot-cards/queen-of-pentacles.jpg"
         },
         {
             "fortune_telling": [
@@ -2198,6 +2198,6 @@
             "name": "king of pentacles",
             "rank": "king",
             "suit": "pentacles",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-pentacles-meaning-rider-waite-tarot_large.jpg?v=1492203018"
+            "img": "./media/images/tarot-cards/king-of-pentacles.jpg"
         }
     ]
