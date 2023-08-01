@@ -445,7 +445,7 @@
             "name": "The Hanged Man",
             "rank": 12,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/12-the-hanged-man-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488921637"
+            "img": "./media/images/tarot-cards/hanged-man.jpg"
         },
         {
             "fortune_telling": [
