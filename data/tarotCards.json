@@ -934,7 +934,7 @@
             "name": "five of cups",
             "rank": 5,
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/five-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489534267"
+            "img": "./media/images/tarot-cards/five-of-cups.jpg"
         },
         {
             "fortune_telling": [
