@@ -343,7 +343,7 @@
             "name": "The Hermit",
             "rank": 9,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/09-hermit-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488908315"
+            "img": "./media/images/tarot-cards/hermit.jpg"
         },
         {
             "fortune_telling": [
