@@ -479,7 +479,7 @@
             "name": "Death",
             "rank": 13,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/13-death-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488924373"
+           "img": "./media/images/tarot-cards/death.jpg"
         },
         {
             "fortune_telling": [
