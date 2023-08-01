@@ -1201,7 +1201,7 @@
             "name": "queen of cups",
             "rank": "queen",
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490201293"
+            "img": "./media/images/tarot-cards/queen-of-cups.jpg"
         },
         {
             "fortune_telling": [
