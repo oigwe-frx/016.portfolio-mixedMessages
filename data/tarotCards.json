@@ -377,7 +377,7 @@
             "name": "The Wheel",
             "rank": 10,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/10-wheel-of-fortune-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488919005"
+           "img": "./media/images/tarot-cards/wheel.jpg"
         },
         {
             "fortune_telling": [
