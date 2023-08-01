@@ -211,7 +211,7 @@
             "name": "The Pope/Hierophant",
             "rank": 5,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/05-hierophant-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488864297"
+            "img": "./media/images/tarot-cards/pope.jpg"
         },
         {
             "fortune_telling": [
