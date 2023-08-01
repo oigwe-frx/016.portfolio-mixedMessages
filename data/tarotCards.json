@@ -968,7 +968,7 @@
             "name": "six of cups",
             "rank": 6,
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/six-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489535637"
+            "img": "./media/images/tarot-cards/six-of-cups.jpg"
         },
         {
             "fortune_telling": [
