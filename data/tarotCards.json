@@ -586,7 +586,7 @@
             "name": "The Tower",
             "rank": 16,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/16-tower-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489185810"
+            "img": "./media/images/tarot-cards/tower.jpg"
         },
         {
             "fortune_telling": [
