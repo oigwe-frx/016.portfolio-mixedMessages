@@ -896,7 +896,7 @@
             "name": "four of cups",
             "rank": 4,
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/four-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489512211"
+            "img": "./media/images/tarot-cards/four-of-cups.jpg"
         },
         {
             "fortune_telling": [
