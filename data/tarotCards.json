@@ -2060,7 +2060,7 @@
             "name": "ten of pentacles",
             "rank": 10,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/ten-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/ten-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -2131,7 +2131,7 @@
             "name": "knight of pentacles",
             "rank": "knight",
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/knight-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/knight-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -2164,7 +2164,7 @@
             "name": "queen of pentacles",
             "rank": "queen",
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/queen-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/queen-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
