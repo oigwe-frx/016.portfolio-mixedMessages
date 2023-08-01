@@ -175,7 +175,7 @@
             "name": "The Emperor",
             "rank": 4,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/04-emperor-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488863001"
+            "img": "./media/images/tarot-cards/emperor.jpg"
         },
         {
             "fortune_telling": [
