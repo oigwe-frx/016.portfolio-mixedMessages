@@ -1072,7 +1072,7 @@
             "name": "nine of cups",
             "rank": 9,
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/nine-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489959507"
+            "img": "./media/images/tarot-cards/nine-of-cups-2.jpg"
         },
         {
             "fortune_telling": [
@@ -1103,7 +1103,7 @@
             "name": "ten of cups",
             "rank": 10,
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/ten-of-cups-meaning-rider-waite-tarot_large.jpg?v=1489960338"
+            "img": "./media/images/tarot-cards/ten-of-cups.jpg"
         },
         {
             "fortune_telling": [
