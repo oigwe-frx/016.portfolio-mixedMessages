@@ -515,7 +515,7 @@
             "name": "Temperance",
             "rank": 14,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/14-temperance-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489166828"
+            "img": "./media/images/tarot-cards/temperance.jpg"
         },
         {
             "fortune_telling": [
