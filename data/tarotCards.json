@@ -760,7 +760,7 @@
             "name": "The World",
             "rank": 21,
             "suit": "major",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/21-the-world-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1489193401"
+            "img": "./media/images/tarot-cards/world.jpg"
         },
         {
             "fortune_telling": [
