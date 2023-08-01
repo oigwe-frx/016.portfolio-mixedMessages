@@ -1752,7 +1752,7 @@
             "name": "ace of pentacles",
             "rank": 1,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/ace-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/ace-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -1786,7 +1786,7 @@
             "name": "two of pentacles",
             "rank": 2,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/two-of-pentacles-3.jpg"
+            "img": "./media/images/tarot-cards/two-of-pentacles-4.jpg"
         },
         {
             "fortune_telling": [
@@ -1821,7 +1821,7 @@
             "name": "three of pentacles",
             "rank": 3,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/three-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/three-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -1855,7 +1855,7 @@
             "name": "four of pentacles",
             "rank": 4,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/four-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/four-of-pentacles-4.jpg"
         },
         {
             "fortune_telling": [
@@ -1890,7 +1890,7 @@
             "name": "five of pentacles",
             "rank": 5,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/five-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/five-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -1925,7 +1925,7 @@
             "name": "six of pentacles",
             "rank": 6,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/six-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/six-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
@@ -1959,7 +1959,7 @@
             "name": "seven of pentacles",
             "rank": 7,
             "suit": "pentacles",
-            "img": "./media/images/tarot-cards/seven-of-pentacles.jpg"
+            "img": "./media/images/tarot-cards/seven-of-pentacles-2.jpg"
         },
         {
             "fortune_telling": [
