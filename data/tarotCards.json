@@ -1232,7 +1232,7 @@
             "name": "king of cups",
             "rank": "king",
             "suit": "cups",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-cups-meaning-rider-waite-tarot_large.jpg?v=1490202267"
+            "img": "./media/images/tarot-cards/king-of-cups.jpg"
         },
         {
             "fortune_telling": [
@@ -1267,7 +1267,7 @@
             "name": "ace of swords",
             "rank": 1,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/01-ace-of-swords-rider-waite-tarot_large.jpg?v=1490367762"
+            "img": "./media/images/tarot-cards/ace-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1300,7 +1300,7 @@
             "name": "two of swords",
             "rank": 2,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/02-two-of-swords-rider-waite-tarot_large.jpg?v=1490368991"
+            "img": "./media/images/tarot-cards/two-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1333,7 +1333,7 @@
             "name": "three of swords",
             "rank": 3,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/03-three-of-swords-rider-waite-tarot_large.jpg?v=1490370166"
+            "img": "./media/images/tarot-cards/three-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1364,7 +1364,7 @@
             "name": "four of swords",
             "rank": 4,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/04-four-of-swords-rider-waite-tarot_large.jpg?v=1490371237"
+            "img": "./media/images/tarot-cards/four-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1400,7 +1400,7 @@
             "name": "five of swords",
             "rank": 5,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/05-five-of-swords-rider-waite-tarot_large.jpg?v=1490456240"
+            "img": "./media/images/tarot-cards/five-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1434,7 +1434,7 @@
             "name": "six of swords",
             "rank": 6,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/06-six-of-swords-rider-waite-tarot_large.jpg?v=1490456927"
+            "img": "./media/images/tarot-cards/six-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1466,7 +1466,7 @@
             "name": "seven of swords",
             "rank": 7,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/07-seven-of-swords-rider-waite-tarot_large.jpg?v=1490457833"
+            "img": "./media/images/tarot-cards/seven-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1503,7 +1503,7 @@
             "name": "eight of swords",
             "rank": 8,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/08-eight-of-swords-rider-waite-tarot_large.jpg?v=1490458805"
+            "img": "./media/images/tarot-cards/eight-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1538,7 +1538,7 @@
             "name": "nine of swords",
             "rank": 9,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/09-nine-of-swords-rider-waite-tarot_large.jpg?v=1490459631"
+            "img": "./media/images/tarot-cards/nine-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1574,7 +1574,7 @@
             "name": "ten of swords",
             "rank": 10,
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/10-ten-of-swords-rider-waite-tarot_large.jpg?v=1490890656"
+            "img": "./media/images/tarot-cards/ten-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1608,7 +1608,7 @@
             "name": "page of swords",
             "rank": "page",
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/page-of-swords-rider-waite-tarot_large.jpg?v=1490892553"
+            "img": "./media/images/tarot-cards/page-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1647,7 +1647,7 @@
             "name": "knight of swords",
             "rank": "knight",
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/knight-of-swords-rider-waite-tarot_large.jpg?v=1490894085"
+            "img": "./media/images/tarot-cards/knight-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1685,7 +1685,7 @@
             "name": "queen of swords",
             "rank": "queen",
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/queen-of-swords-rider-waite-tarot_large.jpg?v=1490893392"
+            "img": "./media/images/tarot-cards/queen-of-swords.jpg"
         },
         {
             "fortune_telling": [
@@ -1719,7 +1719,7 @@
             "name": "king of swords",
             "rank": "king",
             "suit": "swords",
-            "img": "https://cdn.shopify.com/s/files/1/1325/0879/files/king-of-swords-rider-waite-tarot_large.jpg?v=1490894711"
+            "img": "./media/images/tarot-cards/king-of-swords.jpg"
         },
         {
             "fortune_telling": [
