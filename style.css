@@ -26,7 +26,7 @@ h2 {
   }
 /*-- SUBTITLE --*/
 .subtitle {
-  background-color: #000;
+  background-color: #c12555;
 }
 .subtitle p {
   font-size:12px;
@@ -47,7 +47,7 @@ h2 {
 .card-back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  filter: grayscale(1);
+  filter: grayscale(0);
   height: auto;
   position: absolute;
   width: 100%;
