@@ -65,7 +65,7 @@ export const messageBuilder = (array) => {
                   ${card.name.toUpperCase()}
                 </h6>
                 <p>
-                  <strong>Mood:</strong> ${mood.toUpperCase()}
+                  <strong>Energy:</strong> ${mood.toUpperCase()}
                 </p>
                 <p>
                   <strong>Meaning:</strong>
