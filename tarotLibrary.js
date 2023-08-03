@@ -62,7 +62,6 @@ export const messageBuilder = (array) => {
             <div class="card text-center">
               <div class="card-body">
                 <h6 class="card-title">
-                  <strong>Card ${i+1}:</strong>
                   ${card.name.toUpperCase()}
                 </h6>
                 <p>
