@@ -1,0 +1,128 @@
+body {
+  background-color:#0d0d0d;
+  color:#fff;
+  font-family:Inter, sans-serif;
+  margin:50px 0
+  }
+/*-- GENERAL PROPERTIES --*/
+.visible{
+  display: none;
+}
+/*-- HEADINGS  --*/
+h1 {
+  font-size: 37px;
+  font-weight: bold;
+}
+h2 {
+  color:#fff;
+  font-size:13px;
+  font-weight:400;
+  line-height:1.5;
+  margin:20px;
+  padding:0 20px;
+  position:relative;
+  text-align:right;
+  text-transform:uppercase
+  }
+/*-- SUBTITLE --*/
+.subtitle {
+  background-color: #c12555;
+}
+.subtitle p {
+  font-size:12px;
+  font-weight:700;
+  margin:1% auto;
+  text-align:center;
+  text-transform:uppercase
+  }
+/*-- CARD CONTAIINER --*/
+.content {
+  perspective: 600px;
+}
+/*-- CARDS --*/
+.card {
+  background-color: transparent;
+  padding: 0;
+}
+.card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  filter: grayscale(0);
+  height: auto;
+  position: absolute;
+  width: 100%;
+}
+.card-border {
+  border-left: 1px solid #161616;
+  border-right: 1px solid #161616;
+}
+.card-content {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 2s ease;
+  width: 100%;
+  }
+
+.card-face{
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  height: auto;
+  position: absolute;
+  transform: rotateY(180deg);
+  width: 100%;
+}
+
+.card-face img {
+  height: auto;
+  width: 90%;
+}
+.is-flipped {
+  transform: rotateY(180deg)
+}
+
+
+/*-- TURNED CARD  --*/
+
+/*-- TURNED CARD BACKDROP --*/
+.grey {
+  align-items: center;
+  margin: 10px 0 25px 0;
+  padding: 5%;
+  position: relative;
+  width: 100%;
+}
+.grey::before {
+  background-image: url('https://www.auntyflo.com/sites/default/files/styles/real_image/public/dictionarys/dream-dictionary/dreamstarotcards.png');
+  background-size: cover;
+  content: '';
+  filter: grayscale(100%);
+  opacity: 0.1;
+  padding: 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* -- TEXT --*/
+h6 {
+  border-bottom: 1px solid #c12555;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  body {
+    min-width: 320px;
+  }
+  .card-face, .isflipped {
+    transform: none;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+  .card-face, .card-back {
+    -webkit-backface-visibility: hidden;
+  }
+}
