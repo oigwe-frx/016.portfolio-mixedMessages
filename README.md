@@ -22,7 +22,6 @@ This project attempts to simulate a 3 card spread tarot card reading. The projec
 
 Through a series of functions, 3 tarot card objects are randomly selected from the data retrieved from the JSON, and 3 moods are also randomly selected. The moods will determine the meaning of the selected cards. A final function (<b>messageBuilder</b>) takes the data previously collected and through string interpolation composes a message that will be presented to the user. The user can refresh the page to receive a new reading
 
-***Note: The project must be run on a server***
 
 ## Current Version
 
